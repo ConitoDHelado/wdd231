@@ -4,6 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/church-logo.png" type="image/png">
+    <title>Madrid Spain Patron Housing</title>
+    <meta name="description" content="WDD131 - Dynamic Web Fundamentals ~ Efraín Pérez ~ Project Site Plan">
+    <meta name="author" content="Efraín Pérez">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lavishly+Yours&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/patron-housing-mobile.css">
+    <script src="scripts/getdate.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/dropdown.js" defer></script>
+</head>
+<body>
+    <header>
+
+        <!-- HEADER FOR DESKTOP -->
+        <div id="desktop-nav">
+            <nav class="nav-row">
+                <div class="logos-row">
+                    <div class="menu-button">
+                        <a href="https://www.churchofjesuschrist.org/?lang=eng">
+                            <img id="chirst-logo" src="images/church_jesus_christ_simplified_symbol.png" loading="lazy">
+                        </a>
+                    </div>  
+                    <img class="rays" src="images/rays.svg" loading="lazy">
+                    <a href="https://www.churchofjesuschrist.org/?lang=eng">  
+                        <img class="logo" src="images/logo.svg" alt="Church's logo" loading="lazy">
+                    </a>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="index.html" id="home">Home</a></li>
+                    <li><a href="#" id="about">About Us</a></li>
+                    <li><a href="booking.html" id="booking">Book a Reservation</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- HEADER FOR MOBILE -->
+        <div id="mobile-nav">
+            <ul class="nav-list">
+                <li><a href="index.html" id="home">Home</a></li>
+                <li><a href="#" id="about">About Us</a></li>
+                <li><a href="booking.html" id="booking">Book a Reservation</a></li>
+            </ul>
+            <nav class="nav-row">
+                <div class="logos-row">
+                    <div class="menu-button">
+                        <button id="ham-menu"></button>
+                    </div>  
+                    <img class="rays" src="images/rays.svg" loading="lazy">
+                    <a href="https://www.churchofjesuschrist.org/?lang=eng">  
+                        <img class="logo" src="images/logo.svg" alt="Church's logo" loading="lazy">
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1 class="title">About Us</h1>
+        <div class="question button2">Princing<span class="arrow">&#9662;</span></div>
+        <p class="answer">The Patron Housing charges €10 per person and night, regardless of room type</p>
+        <div class="question button2">Room types<span class="arrow">&#9662;</span></div>
+        <div class="answer">The Patron Housing has 4 room types:
+            <ul id="answer-list">
+                <li>Single rooms for individuals</li>
+                <li>Double rooms for marriend couples</li>
+                <li>Family rooms for parents with children</li>
+                <li>Shared rooms for people of the same gender</li>
+            </ul> 
+        </div>
+         <div class="question  button2">Amenities<span class="arrow">&#9662;</span></div>
+        <p class="answer ">The Patron Housing offers its users a common kitchen and dinning area and two laundry rooms</p>
+        <div class="question button2">Who qualifies to stay in the Patron Housing<span class="arrow">&#9662;</span></div>
+        <p class="answer">All worthy members of the Church residing in the Temple District whose primary objective is to serve in the House of the Lord</p>     
+
+    </main>
+
+    <footer>
+        <div class="social_pages">
+            <a class="socials" id="facebook" href="https://www.facebook.com/ChurchofJesusChrist">
+                <img src="images/facebook.svg" alt="Facebook" loading="lazy">
+            </a>
+            <a class="socials" id="x" href="https://twitter.com/Ch_JesusChrist">
+                <img src="images/x.svg" alt="x" loading="lazy">
+            </a>
+            <a class="socials" id="instagram" href="https://www.instagram.com/churchofjesuschrist">
+                <img src="images/instagram.svg" alt="Instagram" loading="lazy">
+            </a>
+            <a class="socials" id="youtube" href="https://www.youtube.com/churchofjesuschrist">
+                <img src="images/youtube.svg" alt="Youtube" loading="lazy">
+            </a>
+            <a id="all-socials" href="https://www.churchofjesuschrist.org/learn/social-media-accounts?lang=eng">All Church Socials Pages</a>
+        </div>
+
+        <div class="copyright">
+            <p>&copy;<span id="currentyear"></span> by Intellectual Reserve, Inc. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
 </head>
 <body>
     <h1>This is a second test</h1>
