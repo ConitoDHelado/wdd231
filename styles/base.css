@@ -103,6 +103,8 @@ h1 {
 
 h2 {
     text-align: center;
+    border-bottom: 1px solid var(--terracota);
+    padding-bottom: 5px;
 }
 
 .photo {
@@ -133,6 +135,11 @@ h2 {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+
+.btn:hover{
+    color:var(--terracota);
+    font-weight: bold;
 }
 
 #courses {
