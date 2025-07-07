@@ -18,11 +18,11 @@ deepblue #3d405b
 
 header{
     display: grid;
-    grid-template-columns: 24px auto 44px;
+    grid-template-columns: 44px auto 44px;
     padding: 5px 0 5px 10px;
     align-items: end;
     border-bottom: solid 2px var(--terracota);
-    column-gap: 8px;
+    column-gap: 12px;
 }
 
 header img {
@@ -34,7 +34,7 @@ header img {
 }
 
 header span {
-    font-size: 1.2rem;
+    font-size: 40px;
     color: var(--deepblue);
 }
 
