@@ -78,3 +78,21 @@ const courses = [
     }
 ]
 
+// Go thru array
+const courseList = document.getElementById('courses');
+
+courses.forEach(course => {
+    const li = document.createElement('li');
+    li.textContent = `${course.subject} ${course.number}`;
+    li.classList.add(course.subject);
+    courseList.appendChild(li);
+})
+
+// Configure buttons
+
+const btnAll = document.getElementById('all');
+const btnWDD = document.getElementById('wde');
+const btnCSE = document.getElementById('cse');
+
+btnAll.c
+

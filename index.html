@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Efraín's Home Page</title>
     <meta name="description" content="WDD231 - Dynamic Web Fundamentals ~ Efraín Pérez ~ Home Page">
     <meta name="author" content="Efraín Pérez">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/getdate.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
 </head>
 <body>
     <header>
@@ -44,6 +45,12 @@
         </div>
         <section>
             <h2>Web Certificate Courses</h2>
+            <div>
+                <button id="all" class="btn">All Courses</button>
+                <button id="wdd" class="btn">WDD Courses</button>
+                <button id="cse" class="btn">CSE Courses</button>
+            </div>
+            <ul id="courses"></ul>
         </section>
     </main>
 
