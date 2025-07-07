@@ -93,9 +93,8 @@ header span {
 
 /*------------ MAIN ----------------*/
 
-main {
-    margin: 0 10px;
-    display: block;
+h1 {
+    margin-left: var(--left-margin);
 }
 
 .info section {
@@ -116,6 +115,49 @@ h2 {
     height: auto;
     border-radius: 5px;
 }
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    border: solid 1px var(--terracota);
+    border-radius: 3px;
+    background-color: #ddd;
+    color: var(--deepblue);
+    height: 44px;
+    width: auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+#courses li{
+    display:none;
+    justify-self: center;
+}
+
+#courses li.show{
+    display: block;
+}
+
+#courses li.completed::after{
+    content: ' \2714';
+    color: green;
+    font-weight: bold;
+}
+
 
 
 /*------------ FOOTER ----------------*/

@@ -84,15 +84,48 @@ const courseList = document.getElementById('courses');
 courses.forEach(course => {
     const li = document.createElement('li');
     li.textContent = `${course.subject} ${course.number}`;
-    li.classList.add(course.subject);
+    li.classList.add(course.subject, 'show');
+    
+    if (course.completed) {
+        li.classList.add('completed');
+    }
     courseList.appendChild(li);
 })
 
 // Configure buttons
 
 const btnAll = document.getElementById('all');
-const btnWDD = document.getElementById('wde');
+const btnWDD = document.getElementById('wdd');
 const btnCSE = document.getElementById('cse');
+const listedCourses = document.querySelectorAll('#courses li');
 
-btnAll.c
 
+
+btnAll.addEventListener('click', () => {
+    listedCourses.forEach(li => {
+        li.classList.add('show');
+    });
+
+})
+
+btnWDD.addEventListener('click', () => {
+    listedCourses.forEach(li => {
+        if (li.classList.contains('WDD')) {
+            li.classList.add('show');
+        } else {
+            li.classList.remove('show');
+        }
+    });
+} )
+
+btnCSE.addEventListener('click', () => {
+    listedCourses.forEach(li => {
+        if (li.classList.contains('CSE')) {
+            li.classList.add('show');
+        } else {
+            li.classList.remove('show');
+        }
+        
+    })
+
+})
