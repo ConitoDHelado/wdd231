@@ -1,0 +1,18 @@
+{
+    "family_name": "Pérez",
+    "move_in_date": "2025-07-09",
+    "number_of_people": 2,
+    "visited": false,
+    "family_members": [
+        {
+            "name": "Efraín Pérez",
+            "gender": "male",
+            "birhdate": "1990-01-01"
+        },
+        {
+            "name": "Elisa Pérez",
+            "gender": "female",
+            "birhdate": "1990-01-01"
+        }
+    ]
+}
