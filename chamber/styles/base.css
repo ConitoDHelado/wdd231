@@ -83,7 +83,7 @@ header span {
 .hamburger {
     background: none;
     border: none;
-    color: var(--rust-brown);
+    color: var(--charcoal-ink);
     cursor: pointer;
 
 }
@@ -96,6 +96,9 @@ header span {
 .hamburger.show::before {
     content: "\00D7";
     font-size: 2rem;
+    font-family: "Uncial Antiqua", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /*------------ NAV ----------------*/
@@ -132,7 +135,6 @@ header span {
 }
 
 /*------------ MAIN ----------------*/
-
 
 
 /*------------ FOOTER ----------------*/
