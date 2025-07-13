@@ -19,7 +19,10 @@
     font-family: "Caudex", serif;
     font-weight: 400;
     font-style: normal;
-    background-color: var(--cream-white);
+}
+
+html {
+    background-color: var(--cream-white)
 }
 
 /*---------------- FONTS ----------------*/
@@ -136,9 +139,62 @@ header span {
 
 /*------------ MAIN ----------------*/
 
-.list-btn {
-    margin: 5px 2.5px;
+.buttons {
+    display: none;
 }
+
+#directory a {
+    color: var(--sunset-orange)
+}
+
+#directory a:hover {
+    font-weight: bold;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
+
+	section {
+		text-align: center;
+		& > * {
+			margin: 0.1rem;
+		}
+	}
+
+	img {
+		border: 1px solid var(--hobbit-gold);
+	}
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+
+	section {
+		display: grid;
+		grid-template-columns: 2fr 2fr 2fr 1fr 1fr 1fr 2fr;
+        text-align: center;
+        align-items: center;
+		margin: 0;
+		padding: 0.25rem;
+
+		& > * {
+			margin: 0 1rem;
+		}
+
+		img {
+			display: none;
+		}
+
+		&:nth-child(even) {
+			background-color: var(--warm-wheat);
+		}
+	}
+}
+
 
 /*------------ FOOTER ----------------*/
 

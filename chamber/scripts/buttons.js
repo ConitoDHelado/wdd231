@@ -1,6 +1,6 @@
 const gridButton = document.getElementById("grid-btn");
 const listButton = document.getElementById("list-btn");
-const memberList = document.getElementById("members-list")
+const memberList = document.getElementById("directory")
 
 gridButton.addEventListener('click', () => {
     memberList.classList.add("grid")

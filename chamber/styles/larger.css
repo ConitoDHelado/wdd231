@@ -25,9 +25,8 @@
         border: none;
     }
 
-    .info {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
+    .buttons {
+        display: block;
     }
 
     footer {

@@ -1,10 +1,10 @@
 const url = "https://conitodhelado.github.io/wdd231/chamber/data/members.json"
-const directory = document.getElementById('directory');
+const directoryElement = document.getElementById('directory');
 
 async function getDirectoryData() {
-    const responde = await fetch(url);
+    const response = await fetch(url);
     const data = await response.json();
-    displayDirectory(data.directory);
+    displayDirectory(data);
 }
 
 getDirectoryData();
@@ -13,6 +13,46 @@ const displayDirectory = (directory) => {
     directory.forEach((member) => {
         let card = document.createElement("section");
         let name = document.createElement("h2");
-        let 
-    })
+        let img = document.createElement("img");
+        let address = document.createElement("p");
+        let phone = document.createElement("p");
+        let url = document.createElement("a");
+        let membership = document.createElement("p");
+        let owner = document.createElement("p");
+        let description = document.createElement("p");
+
+        name.textContent = `${member.name}`;
+        img.setAttribute('src', member.image);
+        img.setAttribute('alt', `${member.name}'s logo`);
+        img.setAttribute('loading', 'lazy');
+        img.setAttribute('width', '200');
+        img.setAttribute('height', '200');
+
+        address.textContent = member.address;
+        phone.textContent = member.phone;
+        url.setAttribute('href', member.website);
+        url.textContent = member.website;
+        if (member.membershipLevel == 1) {
+            membership.textContent = `Member`
+        } else if (member.membershipLevel == 2) {
+            membership.textContent = `Silver Member`
+        } else {
+            membership.textContent = `Gold Member`
+        }
+
+        owner.textContent = `Owner: ${member.owner}`;
+        description.textContent = member.description;
+        description.style.fontStyle = "italic";
+
+        directoryElement.appendChild(card);
+        card.appendChild(name);
+        card.appendChild(img);
+        card.appendChild(phone);
+        card.appendChild(address);
+        card.appendChild(url);
+        card.appendChild(membership);
+        card.appendChild(owner);
+        card.appendChild(description);
+
+    });
 }
