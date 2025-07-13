@@ -22,18 +22,44 @@
     background-color: var(--cream-white);
 }
 
+/*---------------- FONTS ----------------*/
 .uncial-antiqua-regular {
   font-family: "Uncial Antiqua", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
+.caudex-regular {
+  font-family: "Caudex", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caudex-bold {
+  font-family: "Caudex", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.caudex-regular-italic {
+  font-family: "Caudex", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.caudex-bold-italic {
+  font-family: "Caudex", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
 /*HEADER*/
 
 header{
     display: grid;
     grid-template-columns: 80px auto auto;
-    padding: 5px 0 5px 10px;
+    padding: 5px 5px 10px;
     align-items: center;
     border-bottom: solid 2px var(--hobbit-gold);
     column-gap: 12px;
@@ -49,7 +75,7 @@ header img {
 
 header span {
     font-size: 20px;
-    color: var(--hobbit-gold);
+    color: var(--charcoal-ink);
 }
 
 /*------------ HAMBURGER BUTTON ----------------*/
@@ -57,7 +83,7 @@ header span {
 .hamburger {
     background: none;
     border: none;
-    color: var(--deepblue);
+    color: var(--rust-brown);
     cursor: pointer;
 
 }
