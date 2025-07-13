@@ -1,27 +1,41 @@
-/* COLOR SCHEME 
-terracotta #e07a5f
-deepblue #3d405b
-*/
+:root {
+  /* Primary */
+  --shire-green: #3D5B44;
+  --moss-green: #6A8E66;
+  --hobbit-gold: #D4AF37;
 
-:root{
-    --terracota:#e07a5f;
-    --deepblue: #3d405b;
-    --left-margin: 10px;
+  /* Accents */
+  --warm-wheat: #F4E3C1;
+  --rust-brown: #8B5A2B;
+  --sunset-orange: #D87C4A;
+
+  /* Neutrals */
+  --stone-grey: #A8A29E;
+  --cream-white: #FAF7F0;
+  --charcoal-ink: #2E2E2E;
 }
 
 *{
-    font-family: "Roboto", sans-serif;
-    box-sizing: border-box;
+    font-family: "Caudex", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--cream-white);
+}
+
+.uncial-antiqua-regular {
+  font-family: "Uncial Antiqua", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /*HEADER*/
 
 header{
     display: grid;
-    grid-template-columns: 44px auto 44px;
+    grid-template-columns: 80px auto auto;
     padding: 5px 0 5px 10px;
-    align-items: end;
-    border-bottom: solid 2px var(--terracota);
+    align-items: center;
+    border-bottom: solid 2px var(--hobbit-gold);
     column-gap: 12px;
 }
 
@@ -34,8 +48,8 @@ header img {
 }
 
 header span {
-    font-size: 40px;
-    color: var(--deepblue);
+    font-size: 20px;
+    color: var(--hobbit-gold);
 }
 
 /*------------ HAMBURGER BUTTON ----------------*/
@@ -77,17 +91,17 @@ header span {
 .navigation a {
     display: block;
     padding: .8rem 10px;
-    color: var(--deepblue);
+    color: var(--charcoal-ink);
     text-decoration: none;
     border-bottom: solid 1px #ddd;
 }
 
 .navigation li.current {
-    background-color: #eee;
+    background-color: var(--warm-wheat);
 }
 
 .navigation a:hover{
-    color: var(--terracota);
+    color: var(--sunset-orange);
     font-weight: bold;
 }
 
@@ -170,12 +184,16 @@ h2 {
 /*------------ FOOTER ----------------*/
 
 footer {
-    background-color: #eee;
+    background-color: var(--warm-wheat);
     padding: 1rem 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
     align-items: center;
+}
+
+footer * {
+    background-color: var(--warm-wheat);
 }
 
 .social {
