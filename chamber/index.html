@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/favicon.ico">
-    <title>The Shire Chamber of Commerce - Directory</title>
+    <title>The Shire Chamber of Commerce - Home</title>
     <meta name="description" content="WDD231 - Web Frontend Development ~ Efraín Pérez ~ Chamber of Commerce Project">
     <meta name="author" content="Efraín Pérez">
     <meta property="og:title" content="The Shire Chamber of Commerce - Directory">
-    <meta property="og:description" content="Directory for the Chamber of Commerce Project ~ Efraín Pérez WDD231 ~ Web Frontend Development">
+    <meta property="og:description" content="Homepage for the Chamber of Commerce Project ~ Efraín Pérez WDD231 ~ Web Frontend Development">
     <meta property="og:url" content="https://conitodhelado.github.io/wdd231/chamber/directory">
     <meta property="og:image" content="https://live.staticflickr.com/1907/30982149818_22bdfa9d27_b.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,8 +19,8 @@
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/getdate.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/buttons.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <!-- <script src="scripts/buttons.js" defer></script>
+    <script src="scripts/directory.js" defer></script> -->
     
 </head>
 <body>
@@ -30,8 +30,8 @@
         <button id="ham-btn" class="hamburger"></button>
         <nav id="nav-bar" class="navigation">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li class="current"><a href="#">Directory</a></li>
+                <li class="current"><a href="#">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Discover</a></li>
             </ul>
@@ -39,15 +39,39 @@
     </header>
 
     <main>
-        <section class="buttons">
-            <button id="grid-btn" class="btn">Grid</button>
-            <button id="list-btn" class="btn">List</button>
-        </section>
-        <article id="directory" class="grid">
-                           
+        <div class="hero">
+            <img src="hero.webp" alt="The Shire's Landscape">
+            <button id="join-btn" class="btn">Join now</button>
+        </div>
+        <h1>Home</h1>
+        <div class="row1">
+            <div class="events">
+                <h2>Events</h2>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis expedita, quisquam aut ab earum tenetur nesciunt provident deserunt vero, libero nisi fugiat, assumenda illo laborum unde recusandae quasi ea minima sint vitae! Adipisci molestias vel praesentium possimus! Ut blanditiis odio deserunt officia reprehenderit. Vero alias, obcaecati dignissimos debitis veritatis vitae?</p>
+            </div>
+            <div class="weather-current">
+                <h2>Current Weather</h2>
+                <img id="weather-icon" src="" alt="">
+                <p><span id="current-temp"></span></p>
+                <p><span id="weather-desc"></span></p>
+                <p>High: <span id="high-temp"></span></p>
+                <p>Low: <span id="low-temp"></span></p>
+                <p>Humidity: <span id="humidity"></span></p>
+                <p>Sunrise: <span id="sunrise"></span></p>
+                <p>Sunset: <span id="sunset"></span></p>
 
+            </div>
+            <div class="weather-forecast">
+                <h2>Weather Forecast</h2>
+                <p>Today:</p>
+                <p></p>
+                <p></p>
+            </div>            
+        </div>
+        <div class="row2">
+            
+        </div>
 
-        </article>
 
     </main>
     <footer>

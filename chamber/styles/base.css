@@ -15,6 +15,13 @@
   --charcoal-ink: #2E2E2E;
 }
 
+/*---------------- TESTING ----------------*/
+
+/* *{
+    border: 1px dashed red
+} */
+
+/*---------------- GLOBAL ----------------*/
 *{
     font-family: "Caudex", serif;
     font-weight: 400;
@@ -137,7 +144,16 @@ header span {
     font-weight: bold;
 }
 
-/*------------ MAIN ----------------*/
+/*------------ MAIN - HOME ----------------*/
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+/*------------ MAIN - DIRECTORY ----------------*/
+
+
 
 .buttons {
     display: none;

@@ -1,5 +1,5 @@
 @media only screen and (min-width: 38rem) {
-
+    
     header, main, nav, footer{
         max-width: 1200px;
         margin: 0 auto;
@@ -7,6 +7,8 @@
     header {
         grid-template-columns: 50px auto auto;
     }
+
+    /*------------ NAV MENU ----------------*/
     .hamburger {
         display: none;
     }
@@ -24,11 +26,24 @@
     .navigation a {
         border: none;
     }
+    /*------------ MAIN - HOME ----------------*/
+    .row1{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
 
+    }
+
+    .row2{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /*------------ MAIN - DIRECTORY ----------------*/
     .buttons {
         display: block;
     }
 
+    /*------------ FOOTER ----------------*/
     footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
