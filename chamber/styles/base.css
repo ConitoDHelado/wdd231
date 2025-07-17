@@ -151,6 +151,11 @@ main {
     flex-direction: column;
 }
 
+#current-weather-card{
+    display: flex;
+    justify-content: left
+}
+
 /*------------ MAIN - DIRECTORY ----------------*/
 
 

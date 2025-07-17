@@ -19,8 +19,8 @@
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/getdate.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <!-- <script src="scripts/buttons.js" defer></script>
-    <script src="scripts/directory.js" defer></script> -->
+    <script src="scripts/weather.js" defer></script>
+    <!-- <script src="scripts/directory.js" defer></script> -->
     
 </head>
 <body>
@@ -51,8 +51,10 @@
             </div>
             <div class="weather-current">
                 <h2>Current Weather</h2>
-                <img id="weather-icon" src="" alt="">
-                <p><span id="current-temp"></span></p>
+                <div id="current-weather-card">
+                    <img id="weather-icon" src="" alt="">
+                    <p><span id="current-temp"></span></p>
+                </div>
                 <p><span id="weather-desc"></span></p>
                 <p>High: <span id="high-temp"></span></p>
                 <p>Low: <span id="low-temp"></span></p>
