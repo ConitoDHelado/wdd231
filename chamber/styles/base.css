@@ -8,6 +8,7 @@
   --warm-wheat: #F4E3C1;
   --rust-brown: #8B5A2B;
   --sunset-orange: #D87C4A;
+  --shire-wine: #7C1C2A;
 
   /* Neutrals */
   --stone-grey: #A8A29E;
@@ -141,7 +142,7 @@ header span {
     padding: .8rem 10px;
     color: var(--charcoal-ink);
     text-decoration: none;
-    border-bottom: solid 1px #ddd;
+    border-bottom: solid 1px var(--hobbit-gold);
 }
 
 .navigation li.current {
@@ -220,70 +221,72 @@ main > section {
 }
 
 #directory a {
-    color: var(--sunset-orange)
+    color: var(--shire-wine)
 }
 
 #directory a:hover {
     font-weight: bold;
 }
 
-
-    .grid {
+/*grid view*/
+.grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 5px;
     align-items: stretch;
+}
 
-    section {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        text-align: center;
-        margin: 5px;
-        padding: 10px 5px;
-        background-color: var(--warm-wheat);
-        border-radius: 5px;
-        & > * {
-            margin: 0.1rem;
-        }
+.grid section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    padding: 10px 5px;
+    background-color: var(--warm-wheat);
+    border-radius: 5px;
+}
+
+.grid section > * {
+        margin: 0.1rem;
     }
 
-    img {
-        border-radius: 5px;
-        margin: 7px;
-    }
+.grid img {
+    border-radius: 5px;
+    margin: 7px;
+}
 
-    p {
-        padding: 2px 5px 0;
-    }
-    }
+.grid p {
+    padding: 2px 5px 0;
+}
 
+/*list view*/
 .list {
     display: flex;
     flex-direction: column;
+}
+.list section {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 1fr 1fr 1fr 2fr;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0.25rem;
+}
 
-    section {
-        display: grid;
-        grid-template-columns: 2fr 2fr 2fr 1fr 1fr 1fr 2fr;
-        text-align: center;
-        align-items: center;
-        margin: 0;
-        padding: 0.25rem;
+.list section > * {
+    margin: 0 1rem;
+}
 
-        & > * {
-            margin: 0 1rem;
-        }
+.list img {
+    display: none;
+}
 
-        img {
-            display: none;
-        }
+.list section:nth-child(even) {
+    background-color: var(--warm-wheat);
+}
 
-        &:nth-child(even) {
-            background-color: var(--warm-wheat);
-        }
-    }
-    }
 
 
 /*------------ FOOTER ----------------*/
