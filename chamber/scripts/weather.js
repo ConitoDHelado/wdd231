@@ -7,7 +7,7 @@ const humidity = document.getElementById('humidity');
 const sunrise = document.getElementById('sunrise');
 const sunset = document.getElementById('sunset');
 
-const url = "https://api.openweathermap.org/data/2.5/weather?lat=-37.87&lon=175.66&units=metric&appid=be42d46389c64c9c4b089942db709a32";
+const url = "https://api.openweathermap.org/data/2.5/weather?lat=-41.28&lon=175.05&units=metric&appid=be42d46389c64c9c4b089942db709a32";
 
 async function apiFetch() {
     try {

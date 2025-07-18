@@ -14,15 +14,17 @@ const displayDirectory = (directory) => {
         let card = document.createElement("section");
         let name = document.createElement("h2");
         let img = document.createElement("img");
+        let description = document.createElement("p");        
         let address = document.createElement("p");
         let phone = document.createElement("p");
         let url = document.createElement("a");
         let membership = document.createElement("p");
         let owner = document.createElement("p");
-        let description = document.createElement("p");
 
+
+        card.classList.add("member-card")
         name.textContent = `${member.name}`;
-        img.setAttribute('src', member.image);
+        img.setAttribute('src', `images/${member.image}`);
         img.setAttribute('alt', `${member.name}'s logo`);
         img.setAttribute('loading', 'lazy');
         img.setAttribute('width', '200');
@@ -47,12 +49,13 @@ const displayDirectory = (directory) => {
         directoryElement.appendChild(card);
         card.appendChild(name);
         card.appendChild(img);
+        card.appendChild(description);
         card.appendChild(phone);
         card.appendChild(address);
         card.appendChild(url);
         card.appendChild(membership);
         card.appendChild(owner);
-        card.appendChild(description);
+
 
     });
 }

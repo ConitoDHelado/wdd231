@@ -9,6 +9,15 @@
     }
 
     /*------------ NAV MENU ----------------*/
+    .navigation {
+        width: 100%;
+    }
+    .navigation ul {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
     .hamburger {
         display: none;
     }
@@ -27,6 +36,13 @@
         border: none;
     }
     /*------------ MAIN - HOME ----------------*/
+
+
+    .hero img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
     .row1{
         display: grid;
         grid-template-columns: 2fr 1fr 1fr;
