@@ -1,6 +1,6 @@
 import { displayMemberCards } from "./displayMemberCards.mjs";
 const url = "https://conitodhelado.github.io/wdd231/chamber/data/members.json"
-const spotlightContainer = document.getElementById("spotlight");
+const spotlightContainer = document.getElementById("directory");
 
 async function displayGoldSilverMembers() {
     const response = await fetch(url);
