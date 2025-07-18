@@ -28,6 +28,14 @@
     font-style: normal;
 }
 
+h1, h2 {
+    margin: 0.3rem;
+}
+
+p {
+    margin: 0.1rem;
+}
+
 html {
     background-color: var(--cream-white)
 }
@@ -69,9 +77,10 @@ html {
 header{
     display: grid;
     grid-template-columns: 80px auto auto;
-    padding: 5px 5px 10px;
+    padding: 5px;
     align-items: center;
     border-bottom: solid 2px var(--hobbit-gold);
+    margin: 10px;
     column-gap: 12px;
 }
 
@@ -150,11 +159,44 @@ header span {
 main {
     display: flex;
     flex-direction: column;
+    padding-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+.hero {
+    position: relative;
+}
+
+.hero button {
+    position: absolute;
+    right: 20px; 
+    bottom: 20px;
+    z-index: 2;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+}
+
+
+main > section {
+    padding: 0 10px
+}
+
+.row1{
+    text-align: center;
 }
 
 #current-weather-card{
     display: flex;
-    justify-content: left
+    justify-content: center;
+    align-items: center;
 }
 
 /*------------ MAIN - DIRECTORY ----------------*/
@@ -251,6 +293,8 @@ footer * {
     display: flex;
     justify-content: center;
     column-gap: 10px;
+    padding: 10px 0;
+    border-block: 1px solid var(--shire-green);
 }
 
 .social a {
@@ -265,8 +309,4 @@ footer * {
 .social img {
     width: 22px;
     height: 22px;
-}
-
-.social a:hover{
-    background-color: var(--terracota)
 }

@@ -17,10 +17,11 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <script src="scripts/getdate.js" defer></script>
-    <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/weather.js" defer></script>
-    <!-- <script src="scripts/directory.js" defer></script> -->
+    <script type="module" src="scripts/getdate.js" defer></script>
+    <script type="module" src="scripts/navigation.js" defer></script>
+    <script type="module" src="scripts/weather.js" defer></script>
+    <script type="module" src="scripts/forecast.js" defer></script>
+    <script type="module" src="scripts/spotlight.js" defer></script>
     
 </head>
 <body>
@@ -40,7 +41,11 @@
 
     <main>
         <div class="hero">
-            <img src="images/the-shire-hero.webp" alt="A view into the shire through a Hobbit Hole">
+            <picture>
+                <source srcset="images/the-shire-hero-large2.webp" media="(min-width: 38rem)">
+                <img src="images/the-shire-hero-mobile.webp" alt="A view into the shire through a Hobbit Hole">
+            </picture>
+            
             <button id="join-btn" class="btn">Join now</button>
         </div>
         <h1>Home</h1>
@@ -65,12 +70,12 @@
             </article>
             <article class="weather-forecast">
                 <h2>Weather Forecast</h2>
-                <p>Today: <span id="today"></span></p>
+                <p><span id="today"></span></p>
                 <p><span id="tomorrow"></span></p>
                 <p><span id="next-day"></span></p>
             </article>            
         </section>
-        <section class="row2">
+        <section id="spotlight" class="row2">
             
         </section>
 
