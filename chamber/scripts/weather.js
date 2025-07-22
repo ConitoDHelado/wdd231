@@ -1,4 +1,4 @@
-const weatherIcon = document.getElementById('weather-icon');
+const currentWeatherCard = document.getElementById('current-weather-card');
 const currentTemp = document.getElementById('current-temp');
 const weatherDesc = document.getElementById('weather-desc');
 const highTemp = document.getElementById('high-temp');
@@ -30,10 +30,22 @@ apiFetch();
 
 function displayResults(data) {
     currentTemp.innerHTML = `${data.main.temp}&deg;C`;
-    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
     let desc = data.weather[0].description;
+
+    const weatherIcon = document.createElement('img');
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
+    weatherIcon.setAttribute('width', '50');
+    weatherIcon.setAttribute('height', '50');
+    weatherIcon.setAttribute('srcset', `${iconsrc} 1x, https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png 2x`);
+    const oldIcon = currentWeatherCard.querySelector('img');
+    if (oldIcon) {
+        currentWeatherCard.removeChild(oldIcon)
+    };
+
+    currentWeatherCard.appendChild(weatherIcon);;
+
     weatherDesc.textContent = `${desc}`;
 
     highTemp.innerHTML = `${data.main.temp_max}&deg;C`;

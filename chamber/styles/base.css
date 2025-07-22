@@ -198,6 +198,15 @@ main > section {
     display: flex;
     justify-content: center;
     align-items: center;
+    column-gap: 8px;
+    padding-bottom: 5px;
+}
+
+#current-weather-card img {
+    background-color: var(--shire-green);
+    border-radius: 50px;
+    margin-left: 2px;
+
 }
 
 .row2 {
@@ -212,12 +221,19 @@ main > section {
     justify-content: center;
 }
 
+#spotlight {
+    min-height: 600px;
+}
+
 /*------------ MAIN - DIRECTORY ----------------*/
 
 
 
 .buttons {
     display: none;
+}
+#directory {
+  min-height: 3000px;
 }
 
 #directory a {

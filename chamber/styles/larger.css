@@ -59,7 +59,15 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    #spotlight {
+    min-height: 200px;
+    }
+
     /*------------ MAIN - DIRECTORY ----------------*/
+    #directory {
+        min-height: 1000px;
+    }
+
     .buttons {
         display: block;
     }
