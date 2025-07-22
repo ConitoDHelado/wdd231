@@ -192,6 +192,11 @@ main > section {
 
 .row1{
     text-align: center;
+
+}
+
+.row1 h2{
+    text-decoration: underline;
 }
 
 #current-weather-card{
