@@ -235,6 +235,14 @@ main > section {
     min-height: 600px;
 }
 
+#spotlight a {
+    color: var(--shire-wine)
+}
+
+#spotlight a:hover {
+    font-weight: bold;
+}
+
 /*------------ MAIN - DIRECTORY ----------------*/
 
 
