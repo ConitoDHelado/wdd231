@@ -202,11 +202,21 @@ main > section {
     padding-bottom: 5px;
 }
 
+#current-weather-card p {
+    font-size: 1.7rem;
+}
+
 #current-weather-card img {
     background-color: var(--shire-green);
+    border: 3px solid var(--hobbit-gold);
     border-radius: 50px;
     margin-left: 2px;
+}
 
+#weather-desc {
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 1.2rem;
 }
 
 .row2 {
