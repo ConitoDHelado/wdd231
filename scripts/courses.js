@@ -1,4 +1,4 @@
-export const courses = [
+const courses = [
     {
         subject: 'CSE',
         number: 110,
@@ -80,6 +80,32 @@ export const courses = [
 
 // Go thru array
 const courseList = document.getElementById('courses');
+const mydialog = document.getElementById('course-details');
+
+const div = document.createElement('div');
+
+const subjectName = document.createElement('h1');
+
+const closeButton = document.createElement('button');
+closeButton.textContent = "x";
+closeButton.addEventListener("click", () => {
+    mydialog.close();
+})
+
+const title = document.createElement('h2');
+const credits = document.createElement('p');
+const certificate = document.createElement('p');
+const description = document.createElement('p');
+const techStack = document.createElement('p');
+
+div.appendChild(subjectName);
+div.appendChild(closeButton);
+mydialog.appendChild(div);
+mydialog.appendChild(title);
+mydialog.appendChild(credits);
+mydialog.appendChild(certificate);
+mydialog.appendChild(description);
+mydialog.appendChild(techStack);
 
 courses.forEach(course => {
     const li = document.createElement('li');
@@ -89,8 +115,23 @@ courses.forEach(course => {
     if (course.completed) {
         li.classList.add('completed');
     }
+
+    li.addEventListener("click", () => showDialog(course))
     courseList.appendChild(li);
 })
+
+
+function showDialog(course) {
+
+    subjectName.innerHTML = `${course.subject}${course.number}`;
+    title.textContent = course.title;
+    credits.innerHTML = `${course.credits} credits`
+    certificate.textContent = course.certificate;
+    description.textContent = course.description;
+    techStack.textContent = course.technology;
+    mydialog.showModal();
+}
+
 
 // Configure buttons
 
