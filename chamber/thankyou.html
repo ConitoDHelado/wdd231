@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <title>The Shire Chamber of Commerce - Home</title>
+    <meta name="description" content="WDD231 - Web Frontend Development ~ Efraín Pérez ~ Chamber of Commerce Project">
+    <meta name="author" content="Efraín Pérez">
+    <meta property="og:title" content="The Shire Chamber of Commerce - Directory">
+    <meta property="og:description" content="Homepage for the Chamber of Commerce Project ~ Efraín Pérez WDD231 ~ Web Frontend Development">
+    <meta property="og:url" content="https://conitodhelado.github.io/wdd231/chamber/directory">
+    <meta property="og:image" content="https://live.staticflickr.com/1907/30982149818_22bdfa9d27_b.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/getdate.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/membership.js" defer></script>
+    
+</head>
+<body>
+    <header>
+        <img src="images/theshire-round-logo.svg" alt="The Shire Logo" width="100" height="100">
+        <span class="uncial-antiqua-regular">The Shire Chamber of Commerce</span>
+        <button id="ham-btn" class="hamburger" aria-label="Open navigation menu"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li class="current"><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Thank you for Joining the Shire CoC</h1>
+        <section id="thankyou">
+
+        </section>
+    </main>
+    <footer>
+                
+        <section class="contact">
+            <p>The Shire Chamber of Commerce</p>
+            <p>Bag End, Underhill, Hobbiton, Westfarthing, The Shire</p>
+            <p>info@theshirecc.org</p>
+            <p>(000)111-1937</p>
+        </section>
+        <section class="social">
+            <a href="www.linkedin.com/in/efrainpd" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn" width="16" height="16"></a>
+            <a href="https://github.com/ConitoDHelado/" target="_blank"><img src="images/github.svg" alt="github" width="16" height="16"></a>
+            <a href="https://www.youtube.com/@churchofjesuschrist" target="_blank"><img src="images/youtube.svg" alt="YouTube" width="16" height="16"></a>
+        </section>
+        <section class="student">
+            <p>WDD231 Class Project</p>
+            <p>Efraín Pérez</p>
+            <p>&copy;<span id="currentyear"></span> The Shire Chamber of Commerce
+            <p>Last modification: <span id="lastModified"></span></p>
+        </section>
+
+    </footer>
+</body>
+</html>
