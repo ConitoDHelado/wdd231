@@ -1,0 +1,96 @@
+[
+    {
+        "membershipLevel": "Non-Profit",
+        "cost": 0,
+        "costPeriod": "annual",
+        "description": "Perfect for non-profit organizations looking to connect with the community",
+        "benefits": [
+            "Basic business directory listing",
+            "Access to networking events",
+            "Monthly newsletter subscription",
+            "Community event notifications",
+            "Online member portal access"
+        ],
+        "specialEvents": [
+            "Monthly community mixer"
+        ]
+    },
+    {
+        "membershipLevel": "Bronze",
+        "cost": 150,
+        "costPeriod": "annual",
+        "description": "Ideal for small businesses ready to grow their local presence",
+        "benefits": [
+            "Enhanced business directory listing with logo",
+            "Access to all networking events",
+            "Monthly newsletter subscription",
+            "Community event notifications",
+            "Online member portal access",
+            "Business referral opportunities",
+            "Access to member-only resources"
+        ],
+        "specialEvents": [
+            "Monthly community mixer",
+            "Quarterly business breakfast"
+        ]
+    },
+    {
+        "membershipLevel": "Silver",
+        "cost": 350,
+        "costPeriod": "annual",
+        "description": "Great for established businesses seeking enhanced visibility and networking",
+        "benefits": [
+            "Premium business directory listing with photos",
+            "Priority access to networking events",
+            "Monthly newsletter subscription",
+            "Community event notifications",
+            "Online member portal access",
+            "Business referral opportunities",
+            "Access to member-only resources",
+            "Ribbon cutting ceremony inclusion",
+            "Social media mentions (monthly)"
+        ],
+        "specialEvents": [
+            "Monthly community mixer",
+            "Quarterly business breakfast",
+            "Semi-annual leadership summit",
+            "Exclusive member appreciation dinner"
+        ]
+    },
+    {
+        "membershipLevel": "Gold",
+        "cost": 750,
+        "costPeriod": "annual",
+        "description": "Premium membership for businesses wanting maximum exposure and exclusive benefits",
+        "benefits": [
+            "Premium business directory listing with photo gallery",
+            "VIP access to all networking events",
+            "Monthly newsletter subscription",
+            "Community event notifications",
+            "Online member portal access",
+            "Business referral opportunities",
+            "Access to member-only resources",
+            "Ribbon cutting ceremony inclusion",
+            "Weekly social media mentions",
+            "Press release distribution",
+            "Chamber endorsement opportunities",
+            "Priority customer referrals"
+        ],
+        "specialEvents": [
+            "Monthly community mixer",
+            "Quarterly business breakfast",
+            "Semi-annual leadership summit",
+            "Exclusive member appreciation dinner",
+            "Annual golf tournament (complimentary)",
+            "VIP chamber events",
+            "Board meeting invitations"
+        ],
+        "exclusivePerks": [
+            "Complimentary meeting room usage (4 hours/month)",
+            "Free annual business photoshoot",
+            "Priority speaking opportunities at events",
+            "Chamber logo usage rights",
+            "Dedicated account manager"
+        ]
+    }
+]
