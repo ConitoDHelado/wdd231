@@ -15,6 +15,7 @@ fname.innerHTML= `Name: ${formInfo.get('fname')} ${formInfo.get('lname')}`
 email.innerHTML = `Email: ${formInfo.get('email')}`
 phone.innerHTML = `Phone: ${formInfo.get('phone')}`
 business.innerHTML = `Business: ${formInfo.get('org-name')}`
+time.innerHTML = `Member since ${formInfo.get('timestamp')}`
 
 section.appendChild(confirmation);
 section.appendChild(list);
