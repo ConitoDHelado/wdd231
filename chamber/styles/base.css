@@ -171,6 +171,15 @@ h1 {
     min-width: 88px;
     height: 44px;
     border-radius: 5px;
+    border: 1px solid var(--moss-green);
+    background-color: var(--cream-white);
+}
+
+.btn:hover {
+    color: var(--rust-brown);
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid var(--moss-green);
 }
 
 .hero {
@@ -372,7 +381,13 @@ main > section {
 .form input[type="submit"] {
     max-width: 325px;
     width: 96%;
-    margin: -1rem 2% 2rem 2%
+    margin: -1rem 2% 2rem 2%;
+    background-color: var(--warm-wheat);
+    border: none;  
+}
+
+.form input[type="submit"]:hover {
+    color:var(--sunset-orange)
 }
 
 .form input:required {
