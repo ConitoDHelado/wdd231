@@ -167,7 +167,10 @@ h1 {
     text-align: center;
 }
 
-
+.btn {
+    min-width: 88px;
+    height: 44px;
+}
 
 .hero {
     position: relative;
@@ -250,8 +253,6 @@ main > section {
 
 /*------------ MAIN - DIRECTORY ----------------*/
 
-
-
 .buttons {
     display: none;
 }
@@ -324,6 +325,75 @@ main > section {
 
 .list section:nth-child(even) {
     background-color: var(--warm-wheat);
+}
+
+/*------------ MAIN - JOIN ----------------*/
+
+.form fieldset {
+    margin: 2rem 0;
+    border: 1px solid var(--hobbit-gold);
+    border-radius: 5px;
+    padding: .5rem 2%;
+}
+
+.form legend {
+    padding: 0 .5rem;
+
+}
+
+.form label {
+    display: block;
+    padding-top: 1rem;
+}
+
+.form div {
+    padding-top: 1rem;
+}
+
+
+.form input[type="text"],
+.form input[type="tel"],
+.form input[type="email"],
+.form textarea {
+    display: block;
+    border: 1px solid var(--moss-green);
+    border-radius: 5px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+.form input[type="radio"] {
+    margin-right: 6px;
+    accent-color: var(--shire-green);
+}
+
+.form input[type="submit"] {
+    max-width: 325px;
+    width: 96%;
+    margin: -1rem 2% 2rem 2%
+}
+
+.form input:required {
+    border-left: solid 8px var(--shire-wine);
+}
+.form input:required:valid {
+    border-left: solid 8px var(--shire-green);
+}
+
+.membership-lvls {
+    display: flex;
+    flex-direction: column;
+}
+
+.lvl {
+    background-color: var(--warm-wheat);
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
 }
 
 

@@ -81,13 +81,27 @@
     }
 
     /*------------ MAIN - DIRECTORY ----------------*/
-    #directory {
+    #directory.grid {
         min-height: 1000px;
     }
+
+    #directory.list{
+        min-height: auto;
+    }
+
+    
 
     .buttons {
         display: block;
     }
+
+    /*------------ MAIN - JOIN ----------------*/
+    .form-page {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 2rem;
+    }
+
 
     /*------------ FOOTER ----------------*/
     footer {
