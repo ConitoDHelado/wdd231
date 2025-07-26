@@ -168,7 +168,7 @@ h1 {
 }
 
 .btn {
-    min-width: 88px;
+    min-width: 44px;
     height: 44px;
     border-radius: 5px;
     border: 1px solid var(--moss-green);
@@ -412,6 +412,21 @@ main > section {
     align-items: center;
     border-radius: 5px;
 }
+
+#membership-details div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#membership-details h4 {
+    font-size: 1.5rem;
+    margin: 0 auto;
+    text-decoration: underline var(--shire-green);
+
+}
+
 
 
 
