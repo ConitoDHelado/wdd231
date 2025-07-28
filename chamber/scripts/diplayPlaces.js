@@ -18,7 +18,7 @@ function displayItems() {
         const figure = document.createElement("figure");
         
         const img = document.createElement("img");
-        img.src = place.photo_url;
+        img.src = `images/places/${place.photo_url}`;
         img.alt = place.name;
         figure.appendChild(img);
 
