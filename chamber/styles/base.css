@@ -477,14 +477,31 @@ main > section {
     margin: 1rem 8px;
     background-color: var(--warm-wheat);
     border-radius: 5px;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-areas:
+    "name"
+    "photograph"
+    "description"
+    "address"
+    "button";
 }
 
 #allplaces div h2 {
     margin: 1rem 10px;
+    grid-area: name;
+    text-align: center;
 }
+
+#allplaces figure {
+    grid-area: photograph;
+}
+
 
 #allplaces div img {
     width: 100%;
+    border: 1px solid var(--hobbit-gold);
     border-radius: 5px;
 }
 
@@ -495,10 +512,19 @@ main > section {
 
 #allplaces div p {
     margin: 1rem 10px;
+    grid-area: description;
+    text-align: center;
 }
 
 #allplaces div address {
     margin: 1rem 10px;
+    font-style: italic;
+    grid-area: address;
+}
+
+#allplaces div button {
+    grid-area: button;
+    margin: 1rem 2rem;
 }
 
 /*------------ FOOTER ----------------*/

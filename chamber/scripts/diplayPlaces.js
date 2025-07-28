@@ -20,6 +20,7 @@ function displayItems() {
         const img = document.createElement("img");
         img.src = `images/places/${place.photo_url}`;
         img.alt = place.name;
+        img.loading = "lazy"
         figure.appendChild(img);
 
         const figcaption = document.createElement("figcaption");
