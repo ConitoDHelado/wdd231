@@ -4,7 +4,7 @@ import { places } from "../data/places.mjs";
 const showHere = document.getElementById("allplaces")
 
 function displayItems() {
-    places.forEach(place => {
+    places.forEach((place, index) => {
         
         //Create card
         const card = document.createElement("div");
@@ -20,6 +20,7 @@ function displayItems() {
         const img = document.createElement("img");
         img.src = `images/places/${place.photo_url}`;
         img.alt = place.name;
+        
         if (index > 0) {
             img.loading = "lazy";
         }
