@@ -485,6 +485,12 @@ main > section {
 
 #allplaces div img {
     width: 100%;
+    border-radius: 5px;
+}
+
+#allplaces div figcaption {
+    font-style: italic;
+    font-size: 0.9rem;
 }
 
 #allplaces div p {

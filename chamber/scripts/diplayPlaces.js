@@ -39,7 +39,8 @@ function displayItems() {
         
         //Create button
         const button = document.createElement("button");
-        button.textContent = "Learn more"
+        button.textContent = "Learn more";
+        button.classList.add("btn");
         card.appendChild(button);
 
         showHere.appendChild(card);
