@@ -476,6 +476,10 @@ main > section {
 .message {
     text-align: center;
 }
+
+#allplaces {
+    min-height: 800px;
+}
 #allplaces div {
     margin: 1rem 8px;
     background-color: var(--warm-wheat);
