@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/getdate.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/membership.js" defer></script>
+    <script type="module" src="scripts/diplayPlaces.js"></script>
     
 </head>
 <body>
@@ -31,59 +31,15 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="directory.html">Directory</a></li>
-                <li class="current"><a href="#">Join</a></li>
-                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li class="current"><a href="discover.html">Discover</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h1>Join The Shire Chamber of Commerce</h1>
-        <section class="form-page">
-            <form method="get" action="thankyou.html" class="form">
-                <h2>Membership Application Form</h2>
-                <fieldset>
-                    <legend>Personal Information</legend>
-                    <label>First name*<input type="text" name="fname" required autocomplete="given-name" title="Please enter your first name"></label>
-                    <label>Last name*<input type="text" name="lname" required autocomplete="family-name" title="Please enter your last name"></label>
-                    
-                    <label>Email*<input type="email" name="email" required placeholder="email@mail.com" autocomplete="email" title="Please enter your email"></label> 
-                    <label>Mobile Phone*<input type="tel" name="phone" required placeholder="6116116112" autocomplete="tel" title="Please enter your telephone number"></label>
-                </fieldset>    
-                <fieldset>
-                    <legend>Bussiness Information</legend>
-                    <div>Choose a Membership level*</div>
-                    <label><input type="radio" name="lvl" value="np" required>Non-Profit Membership (no fee)</label>
-                    <label><input type="radio" name="lvl" value="bronze">Bronze Membership</label>
-                    <label><input type="radio" name="lvl" value="silver">Silver Membership</label>
-                    <label><input type="radio" name="lvl" value="gold">Gold Membership</label>
-                    
-                    <label>Your Business' Title*<input type="text" name="title" required autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}" title="Please enter at least 7 characters using only letters, spaces, and hyphens"></label>
-                    
-                    <label>Your Business' Name*<input type="text" name="org-name" required autocomplete="organization" title="Please enter your organization's name"></label>
-                                       
-                    <label>Short Business Description
-                        <textarea name="business-description"
-                        rows="5" 
-                        placeholder="Describe your business or organization..." 
-                        maxlength="500"
-                        title="Optional description of your business (max 500 characters)"></textarea>
-                    </label>
-                </fieldset>
-                <input type="hidden" name="timestamp" id="timestamp">
-                <input type="submit" value="Join" class="btn">
-            </form>
-            <section id="membership-lvls">
-                <h2> Membership Levels</h2>
-                
-                <dialog id="membership-details">
-
-                </dialog>
-            </section>
-        </section>
-
-
-
+        <h1>Discover The Shire</h1>
+        <section id="allplaces"></section>
     </main>
     <footer>
                 
