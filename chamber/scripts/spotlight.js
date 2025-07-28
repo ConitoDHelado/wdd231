@@ -1,4 +1,4 @@
-import { displayMemberCards } from "./displayMemberCards.mjs";
+import { displayMemberCards } from "./display-member-cards.mjs";
 const url = "https://conitodhelado.github.io/wdd231/chamber/data/members.json"
 const spotlightContainer = document.getElementById("spotlight");
 
