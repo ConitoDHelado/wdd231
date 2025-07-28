@@ -473,6 +473,9 @@ main > section {
 
 /*------------ MAIN - DISCOVER ----------------*/
 
+.message {
+    text-align: center;
+}
 #allplaces div {
     margin: 1rem 8px;
     background-color: var(--warm-wheat);
