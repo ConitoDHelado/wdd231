@@ -1,0 +1,52 @@
+@media only screen and (min-width: 38rem) {
+    
+    header, main, nav, footer{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    header {
+        grid-template-columns: 50px auto auto;
+        margin-bottom: 10px;
+    }
+
+    /*------------ NAV MENU ----------------*/
+    .navigation {
+        width: 100%;
+    }
+    .navigation ul {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation{
+    display: block;
+
+    }
+
+    .navigation ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navigation a {
+        border: none;
+    }
+
+    /*---------- SWATCHES ----------*/
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .wireframe {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+}

@@ -1,0 +1,186 @@
+:root {
+    /* Base Colors */
+    --charcoal: #2E2E2E;          /* Text color – main text color */
+    --cream: #F5F3E7;     /* Background color – light background */
+    
+    /* Accent Colors */
+    --rust-red: #A14C2F;        /* Accent color – buttons, headings, highlights */
+    --slate-grey: #7B8C8D;     /* Secondary color – secondary details, borders */
+    --timberwolf: #D6D5C9;    /* Highlight color –  section backgrounds, cards*/
+
+    /* Optional Shades */
+    --dark-rust: #823d26;  /* hover accent color rust for hover states */
+    --color-border: #C1C0B1;        /* Light border color (optional use) */
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.work-sans-regular {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*---------- GLOBAL ----------*/
+
+* {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--charcoal);
+}
+
+html {
+    background-color: var(--cream);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--rust-red)
+}
+
+main {
+    padding: 0 1rem;
+}
+
+/*---------- HEADER ----------*/
+
+header{
+    display: grid;
+    grid-template-columns: 80px auto auto;
+    padding: 5px;
+    align-items: center;
+    margin: 10px;
+    column-gap: 12px;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 2px;
+
+}
+
+header span {
+    font-size: 60px;
+}
+
+/*---------- HAMBURGER BUTTON ----------*/
+
+.hamburger {
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+/*---------- NAV ----------*/
+
+.navigation {
+    display: none;
+}
+
+.navigation.show{
+    display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: .8rem 10px;
+    color: var(--rust-red);
+    text-decoration: none;
+}
+
+.navigation li.current a {
+    background-color: var(--timberwolf);
+    border-radius: 5px;
+}
+
+.navigation a:hover{
+    color: var(--dark-rust);
+    font-weight: bold;
+}
+
+/*---------- SWATCHES ----------*/
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin: 2rem;
+    justify-items: center;
+    
+}
+
+.swatch {
+    width: 200px;
+    height: 250px;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    border: 2px solid var(--color-border);
+}
+
+#charcoal{
+    background-color: var(--charcoal);
+    color: var(--cream);
+}
+
+#cream {
+    background-color: var(--cream);
+    color: var(--charcoal);
+    
+}
+
+#rust-red{
+    background-color: var(--rust-red);
+    color: var(--cream)
+}
+
+#dark-rust{
+    background-color: var(--dark-rust);
+    color: var(--cream)
+}
+
+#slate-grey {
+    background-color: var(--slate-grey);
+    color: var(--cream);
+}
+
+#timberwolf {
+    background-color: var(--timberwolf);
+    color: var(--charcoal);
+}
+
+.wireframe img {
+    width: 100%;
+}
+
+.wireframe figcaption {
+    text-align: center;
+    font-style: italic;
+}
