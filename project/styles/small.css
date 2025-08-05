@@ -55,7 +55,7 @@ main {
 
 header{
     display: grid;
-    grid-template-columns: 80px auto auto;
+    grid-template-columns: 100px auto auto;
     padding: 5px;
     align-items: center;
     margin: 10px;
@@ -125,7 +125,9 @@ header span {
     font-weight: bold;
 }
 
-/*---------- SWATCHES ----------*/
+
+
+/*---------- SWATCHES - SITE PLAN ----------*/
 
 .cards {
     display: grid;

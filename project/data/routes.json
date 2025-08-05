@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Santa Cruz – La Laguna – Taganana",
+    "description": "A scenic road through urban, forest, and coastal areas, finishing with sweeping ocean views.",
+    "distance": "72 km",
+    "technicalDifficulty": "Medium",
+    "typeOfRoute": "circular",
+    "minElevation": "0 m",
+    "maxElevation": "1100 m",
+    "map": "images/blank.webp",
+    "terrain": "road"
+  },
+  {
+    "name": "Sunday Ride",
+    "description": "Relaxed weekend ride on well-maintained roads with smooth curves and light traffic.",
+    "distance": "65 km",
+    "technicalDifficulty": "Easy",
+    "typeOfRoute": "circular",
+    "minElevation": "80 m",
+    "maxElevation": "600 m",
+    "map": "images/blank.webp",
+    "terrain": "road"
+  },
+  {
+    "name": "Teide Summit Run",
+    "description": "Challenging ride to Spain's highest peak with tight hairpins and dramatic elevation changes.",
+    "distance": "95 km",
+    "technicalDifficulty": "Hard",
+    "typeOfRoute": "one way",
+    "minElevation": "150 m",
+    "maxElevation": "2300 m",
+    "map": "images/blank.webp",
+    "terrain": "road"
+  },
+  {
+    "name": "Anaga Adventure",
+    "description": "Off-road focused route through the dense Anaga mountains, ideal for enduro riders.",
+    "distance": "58 km",
+    "technicalDifficulty": "Extreme",
+    "typeOfRoute": "circular",
+    "minElevation": "300 m",
+    "maxElevation": "1200 m",
+    "map": "images/blank.webp",
+    "terrain": "off road"
+  },
+  {
+    "name": "Masca – Santiago del Teide – Garachico",
+    "description": "Twisty mountain roads with breathtaking views, steep cliffs, and coastal descent.",
+    "distance": "80 km",
+    "technicalDifficulty": "Hard",
+    "typeOfRoute": "one way",
+    "minElevation": "10 m",
+    "maxElevation": "1400 m",
+    "map": "images/blank.webp",
+    "terrain": "road"
+  },
+  {
+    "name": "Volcanic Gravel Trail",
+    "description": "An off-road route crossing volcanic trails and sparse terrain in the south.",
+    "distance": "45 km",
+    "technicalDifficulty": "Medium",
+    "typeOfRoute": "circular",
+    "minElevation": "100 m",
+    "maxElevation": "900 m",
+    "map": "images/blank.webp",
+    "terrain": "off road"
+  },
+  {
+    "name": "North Coast Explorer",
+    "description": "Smooth road ride along the lush northern coast, ideal for scenic cruising.",
+    "distance": "100 km",
+    "technicalDifficulty": "Medium",
+    "typeOfRoute": "circular",
+    "minElevation": "0 m",
+    "maxElevation": "850 m",
+    "map": "images/blank.webp",
+    "terrain": "road"
+  },
+  {
+    "name": "Los Cristianos – Vilaflor – Teide – La Orotava",
+    "description": "A challenging ascent through pine forests to Mount Teide and down to the historic north.",
+    "distance": "120 km",
+    "technicalDifficulty": "Hard",
+    "typeOfRoute": "one way",
+    "minElevation": "50 m",
+    "maxElevation": "2100 m",
+    "map": "images/blank.webp",
+    "terrain": "road"
+  },
+  {
+    "name": "Forest Sprint",
+    "description": "Quick blast through the forest region, with fast corners and changing elevations.",
+    "distance": "55 km",
+    "technicalDifficulty": "Medium",
+    "typeOfRoute": "circular",
+    "minElevation": "400 m",
+    "maxElevation": "1300 m",
+    "map": "images/blank.webp",
+    "terrain": "road"
+  },
+  {
+    "name": "Barranco Off-Road Loop",
+    "description": "Remote off-road loop through ravines and rugged terrain for experienced riders.",
+    "distance": "70 km",
+    "technicalDifficulty": "Extreme",
+    "typeOfRoute": "circular",
+    "minElevation": "200 m",
+    "maxElevation": "1000 m",
+    "map": "images/blank.webp",
+    "terrain": "off road"
+  },
+  {
+    "name": "Candelaria – Güímar – El Teide",
+    "description": "A spiritual start at Candelaria heading up to volcanic landscapes.",
+    "distance": "85 km",
+    "technicalDifficulty": "Hard",
+    "typeOfRoute": "one way",
+    "minElevation": "10 m",
+    "maxElevation": "2000 m",
+    "map": "images/blank.webp",
+    "terrain": "road"
+  },
+  {
+    "name": "Desert Drift",
+    "description": "Arid off-road ride across southern Tenerife with dry terrain and sparse vegetation.",
+    "distance": "60 km",
+    "technicalDifficulty": "Medium",
+    "typeOfRoute": "circular",
+    "minElevation": "100 m",
+    "maxElevation": "800 m",
+    "map": "images/blank.webp",
+    "terrain": "off road"
+  }
+]
