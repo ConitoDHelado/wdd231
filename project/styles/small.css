@@ -51,6 +51,21 @@ main {
     padding: 0 1rem;
 }
 
+.btn {
+    box-sizing: border-box;
+    min-width: 44px;
+    height: 44px;
+    border-radius: 5px;
+    background-color: var(--dark-rust);
+    border: none;
+    color: var(--cream)
+}
+
+.btn:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
 /*---------- HEADER ----------*/
 
 header{
@@ -125,7 +140,25 @@ header span {
     font-weight: bold;
 }
 
+/*---------- MAIN - HOME ----------*/
 
+
+.hero {
+    position: relative;
+}
+
+.hero button {
+    position: absolute;
+    right: 20px; 
+    bottom: 20px;
+    z-index: 2;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
 
 /*---------- SWATCHES - SITE PLAN ----------*/
 

@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Site Plan - Efraín Pérez Delgado</title>
+    <link rel="icon" href="images/favicon.ico">
+    <title>Home - Tenerife Bikers' Club</title>
     
     <!-- METADATA -->
-
+    <meta name="description" content="WDD231 - Web Frontend Development ~ Efraín Pérez ~ Final Project">
+    <meta name="author" content="Efraín Pérez">
+    <meta property="og:title" content="Tenerife Bikers' Club - Homepage">
+    <meta property="og:description" content="Homepage for WDD231 Final Project ~ Efraín Pérez WDD231 ~ Web Frontend Development">
+    <meta property="og:url" content="https://conitodhelado.github.io/wdd231/project">
+    <meta property="og:image" content="https://raw.githubusercontent.com/ConitoDHelado/wdd231/refs/heads/main/project/images/hero.webp">
+    
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,7 +42,15 @@
         </nav>
     </header>
     <main>
-
+        <section class="hero">
+            <picture>
+                <source srcset="images/hero-large.webp" media="(min-width: 38rem)">
+                <img src="images/hero-mobile.webp" alt="A bike with the Teide Volcano in the background" width="540">
+            </picture>
+            <a href="join.html">
+                <button class="btn">Join now</button>
+            </a>
+        </section>
     </main>
     
 </body>
