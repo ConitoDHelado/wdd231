@@ -160,6 +160,43 @@ header span {
     border-radius: 8px;
 }
 
+/*---------- FOOTER ----------*/
+
+footer {
+    background-color: var(--warm-wheat);
+    padding: 1rem 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+footer * {
+    background-color: var(--warm-wheat);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    padding: 10px 0;
+    border-block: 1px solid var(--shire-green);
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 44px;
+    height: 44px;
+}
+
+.social img {
+    width: 22px;
+    height: 22px;
+}
+
 /*---------- SWATCHES - SITE PLAN ----------*/
 
 .cards {

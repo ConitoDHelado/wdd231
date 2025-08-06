@@ -1,13 +1,15 @@
-const today = new Date();
+document.addEventListener('DOMContentLoaded', function () {
+    const now = new Date();
+    currentyear.innerHTML = now.getFullYear();
 
-currentyear.innerHTML = ` <span>${today.getFullYear()}</span>`;
+    const lastModified = document.getElementById('lastModified');
+    lastModified.innerHTML = now.toLocaleString("en-GB", {
+        day: "numeric",
+        month: "short",
+        year: "numeric",
+        hour: "2-digit",
+        minute: "2-digit"
+    });
 
-document.getElementById("lastModified").innerHTML = `<span>${document.lastModified}</span>`;
-
-document.addEventListener('DOMContentLoaded', function() {
-    const timestampField = document.getElementById('timestamp');
-    if (timestampField) {
-        const now = new Date();
-        timestampField.value = now.toLocaleString();
     }
-});
+);
