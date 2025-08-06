@@ -110,11 +110,18 @@ header span {
 /*---------- NAV ----------*/
 
 .navigation {
-    display: none;
+    width: 100%;
+    grid-column: 1 / -1;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+
 }
 
 .navigation.show{
-    display: block;
+    max-height: 300px;
+    opacity: 1;
 }
 
 .navigation ul {
@@ -128,6 +135,7 @@ header span {
     padding: .8rem 10px;
     color: var(--rust-red);
     text-decoration: none;
+    text-align: center;
 }
 
 .navigation li.current a {
@@ -139,6 +147,8 @@ header span {
     color: var(--dark-rust);
     font-weight: bold;
 }
+
+
 
 /*---------- MAIN - HOME ----------*/
 
