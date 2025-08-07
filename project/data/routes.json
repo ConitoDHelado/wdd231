@@ -18,7 +18,7 @@
     "typeOfRoute": "Circular",
     "minElevation": "80 m",
     "maxElevation": "600 m",
-    "map": "images/blank.webp",
+    "map": "images/routes/2.webp",
     "terrain": "Road"
   },
   {
@@ -29,7 +29,7 @@
     "typeOfRoute": "One Way",
     "minElevation": "150 m",
     "maxElevation": "2300 m",
-    "map": "images/blank.webp",
+    "map": "images/routes/3.webp",
     "terrain": "Road"
   },
   {
@@ -40,8 +40,8 @@
     "typeOfRoute": "Circular",
     "minElevation": "300 m",
     "maxElevation": "1200 m",
-    "map": "images/blank.webp",
-    "terrain": "Off Road"
+    "map": "images/routes/4.webp",
+    "terrain": "Off-road"
   },
   {
     "name": "Masca \u2013 Santiago del Teide \u2013 Garachico",
@@ -51,7 +51,7 @@
     "typeOfRoute": "One Way",
     "minElevation": "10 m",
     "maxElevation": "1400 m",
-    "map": "images/blank.webp",
+    "map": "images/routes/5.webp",
     "terrain": "Road"
   },
   {
@@ -62,8 +62,8 @@
     "typeOfRoute": "Circular",
     "minElevation": "100 m",
     "maxElevation": "900 m",
-    "map": "images/blank.webp",
-    "terrain": "Off Road"
+    "map": "images/routes/6.webp",
+    "terrain": "Off-road"
   },
   {
     "name": "North Coast Explorer",
@@ -73,7 +73,7 @@
     "typeOfRoute": "Circular",
     "minElevation": "0 m",
     "maxElevation": "850 m",
-    "map": "images/blank.webp",
+    "map": "images/routes/7.webp",
     "terrain": "Road"
   },
   {
@@ -84,7 +84,7 @@
     "typeOfRoute": "One Way",
     "minElevation": "50 m",
     "maxElevation": "2100 m",
-    "map": "images/blank.webp",
+    "map": "images/routes/8.webp",
     "terrain": "Road"
   },
   {
@@ -95,7 +95,7 @@
     "typeOfRoute": "Circular",
     "minElevation": "400 m",
     "maxElevation": "1300 m",
-    "map": "images/blank.webp",
+    "map": "images/routes/9.webp",
     "terrain": "Road"
   },
   {
@@ -106,8 +106,8 @@
     "typeOfRoute": "Circular",
     "minElevation": "200 m",
     "maxElevation": "1000 m",
-    "map": "images/blank.webp",
-    "terrain": "Off Road"
+    "map": "images/routes/10.webp",
+    "terrain": "Off-road"
   },
   {
     "name": "Candelaria \u2013 G\u00fc\u00edmar \u2013 El Teide",
@@ -117,7 +117,7 @@
     "typeOfRoute": "One Way",
     "minElevation": "10 m",
     "maxElevation": "2000 m",
-    "map": "images/blank.webp",
+    "map": "images/routes/11.webp",
     "terrain": "Road"
   },
   {
@@ -128,8 +128,8 @@
     "typeOfRoute": "Circular",
     "minElevation": "100 m",
     "maxElevation": "800 m",
-    "map": "images/blank.webp",
-    "terrain": "Off Road"
+    "map": "images/routes/12.webp",
+    "terrain": "Off-road"
   },
   {
     "name": "Pine Forest Loop",
@@ -139,7 +139,7 @@
     "typeOfRoute": "Circular",
     "minElevation": "500 m",
     "maxElevation": "1600 m",
-    "map": "images/blank.webp",
+    "map": "images/routes/13.webp",
     "terrain": "Road"
   },
   {
@@ -150,7 +150,7 @@
     "typeOfRoute": "One Way",
     "minElevation": "300 m",
     "maxElevation": "1200 m",
-    "map": "images/blank.webp",
+    "map": "images/routes/14.webp",
     "terrain": "Road"
   },
   {
@@ -161,8 +161,8 @@
     "typeOfRoute": "Circular",
     "minElevation": "200 m",
     "maxElevation": "1350 m",
-    "map": "images/blank.webp",
-    "terrain": "Off Road"
+    "map": "images/routes/15.webp",
+    "terrain": "Off-road"
   },
   {
     "name": "Hidden Villages Trail",
@@ -172,7 +172,7 @@
     "typeOfRoute": "One Way",
     "minElevation": "100 m",
     "maxElevation": "1500 m",
-    "map": "images/blank.webp",
+    "map": "images/routes/16.webp",
     "terrain": "Road"
   },
   {
@@ -183,8 +183,8 @@
     "typeOfRoute": "Circular",
     "minElevation": "10 m",
     "maxElevation": "400 m",
-    "map": "images/blank.webp",
-    "terrain": "Off Road"
+    "map": "images/routes/17.webp",
+    "terrain": "Off-road"
   },
   {
     "name": "El M\u00e9dano Loop",
@@ -194,7 +194,7 @@
     "typeOfRoute": "Circular",
     "minElevation": "0 m",
     "maxElevation": "250 m",
-    "map": "images/blank.webp",
+    "map": "images/routes/18.webp",
     "terrain": "Road"
   },
   {
@@ -205,7 +205,7 @@
     "typeOfRoute": "Circular",
     "minElevation": "300 m",
     "maxElevation": "1100 m",
-    "map": "images/blank.webp",
+    "map": "images/routes/19.webp",
     "terrain": "Road"
   },
   {
@@ -216,8 +216,8 @@
     "typeOfRoute": "One Way",
     "minElevation": "400 m",
     "maxElevation": "1450 m",
-    "map": "images/blank.webp",
-    "terrain": "Off Road"
+    "map": "images/routes/.webp",
+    "terrain": "Off-road"
   },
   {
     "name": "Sunset Coast Cruise",
@@ -227,7 +227,7 @@
     "typeOfRoute": "Circular",
     "minElevation": "0 m",
     "maxElevation": "350 m",
-    "map": "images/blank.webp",
+    "map": "images/routes/.webp",
     "terrain": "Road"
   },
   {
@@ -238,7 +238,7 @@
     "typeOfRoute": "Circular",
     "minElevation": "150 m",
     "maxElevation": "1250 m",
-    "map": "images/blank.webp",
+    "map": "images/routes/.webp",
     "terrain": "Road"
   }
 ]
