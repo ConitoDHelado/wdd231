@@ -4,34 +4,61 @@ const section = document.getElementById('routes')
 
 
 async function getRoutesData() {
-    const response = await fetch(url);
-    const data = await response.json();
-    createCards(data);
+    try {
+        const response = await fetch(url);
+        if (response.ok) {
+            const data = await response.json();
+            createCards(data);
+        } else {
+            throw Error(await response.text());
+        }
+
+    }
+    catch(error) {
+        console.log(error);
+    }
+    
 }
 
 getRoutesData();
 
 function createCards(data) {
-    data.forEach((x) => {
+    data.forEach((x, index) => {
 
         const card = document.createElement('article')
         const img = document.createElement('img')
+        img.setAttribute('src', x.map) 
+        img.setAttribute('alt', x.name) 
+        img.setAttribute('width', '300')
+        img.setAttribute('height', '200')
+        if (index > 5) {
+            img.setAttribute('loading', 'lazy')
+        }
+        
         const info = document.createElement('article')
-        const routeName = document.createElement('p')
+        const routeName = document.createElement('h2')
         routeName.textContent = x.name
+        
         const description = document.createElement('p')
         description.innerHTML = x.description
+        
         const distance = document.createElement('p')
-        distance.textContent = x.distance
+        distance.innerHTML = `Distance: ${x.distance}`
+       
         const difficulty = document.createElement('p')
-        difficulty.textContent = x.technicalDifficulty
+        difficulty.innerHTML = `Difficulty: ${x.technicalDifficulty}`
+        
         const type = document.createElement('p')
-        type.textContent = x.typeOfRoute
+        type.innerHTML = `Type: ${x.typeOfRoute}`
+       
         const terrain = document.createElement('p')
         terrain.innerHTML = `Terrain: ${x.terrain}`
-
+        
         const minElevation = document.createElement('p')
+        minElevation.innerHTML = `Min Elevation: ${x.minElevation}`
+        
         const maxElevation = document.createElement('p')
+        maxElevation.innerHTML = `Max Elevation: ${x.maxElevation}`
 
         info.appendChild(routeName)
         info.appendChild(description)

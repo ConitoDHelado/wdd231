@@ -7,7 +7,7 @@
     "typeOfRoute": "Circular",
     "minElevation": "0 m",
     "maxElevation": "1100 m",
-    "map": "images/blank.webp",
+    "map": "images/routes/1.webp",
     "terrain": "Road"
   },
   {
