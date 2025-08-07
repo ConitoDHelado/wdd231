@@ -172,6 +172,12 @@ header span {
     border-radius: 8px;
 }
 
+/*---------- MAIN - DISCOVER ----------*/
+
+#routes {
+    display: block;
+}
+
 /*---------- FOOTER ----------*/
 
 footer {

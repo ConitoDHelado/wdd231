@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const now = new Date();
+    const currentyear = document.getElementById('currentyear');
     currentyear.innerHTML = now.getFullYear();
 
     const lastModified = document.getElementById('lastModified');
