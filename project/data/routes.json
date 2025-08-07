@@ -7,7 +7,7 @@
     "typeOfRoute": "Circular",
     "minElevation": "0 m",
     "maxElevation": "1100 m",
-    "map": "images/routes/1.webp",
+    "map": "images/routes/taganana.webp",
     "terrain": "Road"
   },
   {
@@ -18,7 +18,7 @@
     "typeOfRoute": "Circular",
     "minElevation": "80 m",
     "maxElevation": "600 m",
-    "map": "images/routes/2.webp",
+    "map": "images/routes/sunday.webp",
     "terrain": "Road"
   },
   {
@@ -29,7 +29,7 @@
     "typeOfRoute": "One Way",
     "minElevation": "150 m",
     "maxElevation": "2300 m",
-    "map": "images/routes/3.webp",
+    "map": "images/routes/teide.webp",
     "terrain": "Road"
   },
   {
@@ -40,7 +40,7 @@
     "typeOfRoute": "Circular",
     "minElevation": "300 m",
     "maxElevation": "1200 m",
-    "map": "images/routes/4.webp",
+    "map": "images/routes/anaga-offroad.webp",
     "terrain": "Off-road"
   },
   {
@@ -51,7 +51,7 @@
     "typeOfRoute": "One Way",
     "minElevation": "10 m",
     "maxElevation": "1400 m",
-    "map": "images/routes/5.webp",
+    "map": "images/routes/masca.webp",
     "terrain": "Road"
   },
   {
@@ -62,7 +62,7 @@
     "typeOfRoute": "Circular",
     "minElevation": "100 m",
     "maxElevation": "900 m",
-    "map": "images/routes/6.webp",
+    "map": "images/routes/volcanic-gravel.webp",
     "terrain": "Off-road"
   },
   {
@@ -73,7 +73,7 @@
     "typeOfRoute": "Circular",
     "minElevation": "0 m",
     "maxElevation": "850 m",
-    "map": "images/routes/7.webp",
+    "map": "images/routes/north-coast.webp",
     "terrain": "Road"
   },
   {
@@ -84,7 +84,7 @@
     "typeOfRoute": "One Way",
     "minElevation": "50 m",
     "maxElevation": "2100 m",
-    "map": "images/routes/8.webp",
+    "map": "images/routes/south-teide.webp",
     "terrain": "Road"
   },
   {
@@ -95,7 +95,7 @@
     "typeOfRoute": "Circular",
     "minElevation": "400 m",
     "maxElevation": "1300 m",
-    "map": "images/routes/9.webp",
+    "map": "images/routes/forest-sprint.webp",
     "terrain": "Road"
   },
   {
@@ -106,7 +106,7 @@
     "typeOfRoute": "Circular",
     "minElevation": "200 m",
     "maxElevation": "1000 m",
-    "map": "images/routes/10.webp",
+    "map": "images/routes/barranco.webp",
     "terrain": "Off-road"
   },
   {
@@ -117,7 +117,7 @@
     "typeOfRoute": "One Way",
     "minElevation": "10 m",
     "maxElevation": "2000 m",
-    "map": "images/routes/11.webp",
+    "map": "images/routes/candelaria.webp",
     "terrain": "Road"
   },
   {
@@ -128,7 +128,7 @@
     "typeOfRoute": "Circular",
     "minElevation": "100 m",
     "maxElevation": "800 m",
-    "map": "images/routes/12.webp",
+    "map": "images/routes/dirt-road.webp",
     "terrain": "Off-road"
   },
   {
@@ -139,7 +139,7 @@
     "typeOfRoute": "Circular",
     "minElevation": "500 m",
     "maxElevation": "1600 m",
-    "map": "images/routes/13.webp",
+    "map": "images/routes/pinar.webp",
     "terrain": "Road"
   },
   {
@@ -150,7 +150,7 @@
     "typeOfRoute": "One Way",
     "minElevation": "300 m",
     "maxElevation": "1200 m",
-    "map": "images/routes/14.webp",
+    "map": "images/routes/gigantes.webp",
     "terrain": "Road"
   },
   {
@@ -161,7 +161,7 @@
     "typeOfRoute": "Circular",
     "minElevation": "200 m",
     "maxElevation": "1350 m",
-    "map": "images/routes/15.webp",
+    "map": "images/routes/ridge.webp",
     "terrain": "Off-road"
   },
   {
@@ -172,7 +172,7 @@
     "typeOfRoute": "One Way",
     "minElevation": "100 m",
     "maxElevation": "1500 m",
-    "map": "images/routes/16.webp",
+    "map": "images/routes/hidden-village.webp",
     "terrain": "Road"
   },
   {
@@ -183,7 +183,7 @@
     "typeOfRoute": "Circular",
     "minElevation": "10 m",
     "maxElevation": "400 m",
-    "map": "images/routes/17.webp",
+    "map": "images/routes/offroad-coast.webp",
     "terrain": "Off-road"
   },
   {
@@ -194,7 +194,7 @@
     "typeOfRoute": "Circular",
     "minElevation": "0 m",
     "maxElevation": "250 m",
-    "map": "images/routes/18.webp",
+    "map": "images/routes/medano.webp",
     "terrain": "Road"
   },
   {
@@ -205,8 +205,8 @@
     "typeOfRoute": "Circular",
     "minElevation": "300 m",
     "maxElevation": "1100 m",
-    "map": "images/routes/19.webp",
-    "terrain": "Road"
+    "map": "images/routes/lava.webp",
+    "terrain": "Off-road"
   },
   {
     "name": "Highland Gravel Track",
