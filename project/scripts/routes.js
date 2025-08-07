@@ -26,6 +26,7 @@ function createCards(data) {
     data.forEach((x, index) => {
 
         const card = document.createElement('article')
+        
         const img = document.createElement('img')
         img.setAttribute('src', x.map) 
         img.setAttribute('alt', x.name) 
@@ -35,41 +36,48 @@ function createCards(data) {
             img.setAttribute('loading', 'lazy')
         }
         
-        const info = document.createElement('article')
         const routeName = document.createElement('h2')
+        routeName.className = 'route-name'
         routeName.textContent = x.name
         
         const description = document.createElement('p')
+        description.className = 'route-description'
         description.innerHTML = x.description
         
         const distance = document.createElement('p')
+        distance.className = 'distance-info'
         distance.innerHTML = `Distance: ${x.distance}`
        
         const difficulty = document.createElement('p')
+        difficulty.className = 'difficulty-info'
         difficulty.innerHTML = `Difficulty: ${x.technicalDifficulty}`
         
         const type = document.createElement('p')
+        type.className = 'route-type'
         type.innerHTML = `Type: ${x.typeOfRoute}`
        
         const terrain = document.createElement('p')
+        terrain.className = 'terrain-info'
         terrain.innerHTML = `Terrain: ${x.terrain}`
         
         const minElevation = document.createElement('p')
+        minElevation.className = 'min-elevation'
         minElevation.innerHTML = `Min Elevation: ${x.minElevation}`
         
         const maxElevation = document.createElement('p')
+        maxElevation.className = 'max-elevation'
         maxElevation.innerHTML = `Max Elevation: ${x.maxElevation}`
 
-        info.appendChild(routeName)
-        info.appendChild(description)
-        info.appendChild(distance)
-        info.appendChild(difficulty)
-        info.appendChild(type)
-        info.appendChild(terrain)
-        info.appendChild(minElevation)
-        info.appendChild(maxElevation)
         card.appendChild(img)
-        card.appendChild(info)
+        card.appendChild(routeName)
+        card.appendChild(description)
+        card.appendChild(distance)
+        card.appendChild(difficulty)
+        card.appendChild(type)
+        card.appendChild(terrain)
+        card.appendChild(minElevation)
+        card.appendChild(maxElevation)
+        
         section.appendChild(card)
 
     });

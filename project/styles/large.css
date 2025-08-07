@@ -47,6 +47,15 @@
         height: auto;
     }
 
+    /*---------- MAIN - DISCOVER ----------*/
+    #routes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    }
+
+
+
     /*---------- FOOTER ----------*/
 
     footer {
