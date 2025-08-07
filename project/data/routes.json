@@ -216,29 +216,7 @@
     "typeOfRoute": "One Way",
     "minElevation": "400 m",
     "maxElevation": "1450 m",
-    "map": "images/routes/.webp",
+    "map": "images/routes/highland.webp",
     "terrain": "Off-road"
-  },
-  {
-    "name": "Sunset Coast Cruise",
-    "description": "Relaxing coastal ride perfect for golden hour and ocean breeze.",
-    "distance": "50 km",
-    "technicalDifficulty": "Easy",
-    "typeOfRoute": "Circular",
-    "minElevation": "0 m",
-    "maxElevation": "350 m",
-    "map": "images/routes/.webp",
-    "terrain": "Road"
-  },
-  {
-    "name": "Ravine Run",
-    "description": "Tight and twisty roads through volcanic ravines with technical sections.",
-    "distance": "70 km",
-    "technicalDifficulty": "Hard",
-    "typeOfRoute": "Circular",
-    "minElevation": "150 m",
-    "maxElevation": "1250 m",
-    "map": "images/routes/.webp",
-    "terrain": "Road"
   }
 ]
