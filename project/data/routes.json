@@ -1,134 +1,244 @@
 [
   {
-    "name": "Santa Cruz – La Laguna – Taganana",
+    "name": "Santa Cruz \u2013 La Laguna \u2013 Taganana",
     "description": "A scenic road through urban, forest, and coastal areas, finishing with sweeping ocean views.",
     "distance": "72 km",
     "technicalDifficulty": "Medium",
-    "typeOfRoute": "circular",
+    "typeOfRoute": "Circular",
     "minElevation": "0 m",
     "maxElevation": "1100 m",
     "map": "images/blank.webp",
-    "terrain": "road"
+    "terrain": "Road"
   },
   {
     "name": "Sunday Ride",
     "description": "Relaxed weekend ride on well-maintained roads with smooth curves and light traffic.",
     "distance": "65 km",
     "technicalDifficulty": "Easy",
-    "typeOfRoute": "circular",
+    "typeOfRoute": "Circular",
     "minElevation": "80 m",
     "maxElevation": "600 m",
     "map": "images/blank.webp",
-    "terrain": "road"
+    "terrain": "Road"
   },
   {
     "name": "Teide Summit Run",
     "description": "Challenging ride to Spain's highest peak with tight hairpins and dramatic elevation changes.",
     "distance": "95 km",
     "technicalDifficulty": "Hard",
-    "typeOfRoute": "one way",
+    "typeOfRoute": "One Way",
     "minElevation": "150 m",
     "maxElevation": "2300 m",
     "map": "images/blank.webp",
-    "terrain": "road"
+    "terrain": "Road"
   },
   {
     "name": "Anaga Adventure",
     "description": "Off-road focused route through the dense Anaga mountains, ideal for enduro riders.",
     "distance": "58 km",
     "technicalDifficulty": "Extreme",
-    "typeOfRoute": "circular",
+    "typeOfRoute": "Circular",
     "minElevation": "300 m",
     "maxElevation": "1200 m",
     "map": "images/blank.webp",
-    "terrain": "off road"
+    "terrain": "Off Road"
   },
   {
-    "name": "Masca – Santiago del Teide – Garachico",
+    "name": "Masca \u2013 Santiago del Teide \u2013 Garachico",
     "description": "Twisty mountain roads with breathtaking views, steep cliffs, and coastal descent.",
     "distance": "80 km",
     "technicalDifficulty": "Hard",
-    "typeOfRoute": "one way",
+    "typeOfRoute": "One Way",
     "minElevation": "10 m",
     "maxElevation": "1400 m",
     "map": "images/blank.webp",
-    "terrain": "road"
+    "terrain": "Road"
   },
   {
     "name": "Volcanic Gravel Trail",
     "description": "An off-road route crossing volcanic trails and sparse terrain in the south.",
     "distance": "45 km",
     "technicalDifficulty": "Medium",
-    "typeOfRoute": "circular",
+    "typeOfRoute": "Circular",
     "minElevation": "100 m",
     "maxElevation": "900 m",
     "map": "images/blank.webp",
-    "terrain": "off road"
+    "terrain": "Off Road"
   },
   {
     "name": "North Coast Explorer",
     "description": "Smooth road ride along the lush northern coast, ideal for scenic cruising.",
     "distance": "100 km",
     "technicalDifficulty": "Medium",
-    "typeOfRoute": "circular",
+    "typeOfRoute": "Circular",
     "minElevation": "0 m",
     "maxElevation": "850 m",
     "map": "images/blank.webp",
-    "terrain": "road"
+    "terrain": "Road"
   },
   {
-    "name": "Los Cristianos – Vilaflor – Teide – La Orotava",
+    "name": "Los Cristianos \u2013 Vilaflor \u2013 Teide \u2013 La Orotava",
     "description": "A challenging ascent through pine forests to Mount Teide and down to the historic north.",
     "distance": "120 km",
     "technicalDifficulty": "Hard",
-    "typeOfRoute": "one way",
+    "typeOfRoute": "One Way",
     "minElevation": "50 m",
     "maxElevation": "2100 m",
     "map": "images/blank.webp",
-    "terrain": "road"
+    "terrain": "Road"
   },
   {
     "name": "Forest Sprint",
     "description": "Quick blast through the forest region, with fast corners and changing elevations.",
     "distance": "55 km",
     "technicalDifficulty": "Medium",
-    "typeOfRoute": "circular",
+    "typeOfRoute": "Circular",
     "minElevation": "400 m",
     "maxElevation": "1300 m",
     "map": "images/blank.webp",
-    "terrain": "road"
+    "terrain": "Road"
   },
   {
     "name": "Barranco Off-Road Loop",
     "description": "Remote off-road loop through ravines and rugged terrain for experienced riders.",
     "distance": "70 km",
     "technicalDifficulty": "Extreme",
-    "typeOfRoute": "circular",
+    "typeOfRoute": "Circular",
     "minElevation": "200 m",
     "maxElevation": "1000 m",
     "map": "images/blank.webp",
-    "terrain": "off road"
+    "terrain": "Off Road"
   },
   {
-    "name": "Candelaria – Güímar – El Teide",
+    "name": "Candelaria \u2013 G\u00fc\u00edmar \u2013 El Teide",
     "description": "A spiritual start at Candelaria heading up to volcanic landscapes.",
     "distance": "85 km",
     "technicalDifficulty": "Hard",
-    "typeOfRoute": "one way",
+    "typeOfRoute": "One Way",
     "minElevation": "10 m",
     "maxElevation": "2000 m",
     "map": "images/blank.webp",
-    "terrain": "road"
+    "terrain": "Road"
   },
   {
     "name": "Desert Drift",
     "description": "Arid off-road ride across southern Tenerife with dry terrain and sparse vegetation.",
     "distance": "60 km",
     "technicalDifficulty": "Medium",
-    "typeOfRoute": "circular",
+    "typeOfRoute": "Circular",
     "minElevation": "100 m",
     "maxElevation": "800 m",
     "map": "images/blank.webp",
-    "terrain": "off road"
+    "terrain": "Off Road"
+  },
+  {
+    "name": "Pine Forest Loop",
+    "description": "Ride through tall pine trees and twisty roads with fresh mountain air.",
+    "distance": "68 km",
+    "technicalDifficulty": "Medium",
+    "typeOfRoute": "Circular",
+    "minElevation": "500 m",
+    "maxElevation": "1600 m",
+    "map": "images/blank.webp",
+    "terrain": "Road"
+  },
+  {
+    "name": "Teno Rural Park Ride",
+    "description": "Remote and quiet road with stunning views of cliffs and the Atlantic.",
+    "distance": "75 km",
+    "technicalDifficulty": "Hard",
+    "typeOfRoute": "One Way",
+    "minElevation": "300 m",
+    "maxElevation": "1200 m",
+    "map": "images/blank.webp",
+    "terrain": "Road"
+  },
+  {
+    "name": "Off-Road Ridge Climb",
+    "description": "Technical off-road route climbing ridgelines with rocky surfaces.",
+    "distance": "52 km",
+    "technicalDifficulty": "Extreme",
+    "typeOfRoute": "Circular",
+    "minElevation": "200 m",
+    "maxElevation": "1350 m",
+    "map": "images/blank.webp",
+    "terrain": "Off Road"
+  },
+  {
+    "name": "Hidden Villages Trail",
+    "description": "Charming route passing through secluded mountain villages.",
+    "distance": "90 km",
+    "technicalDifficulty": "Medium",
+    "typeOfRoute": "One Way",
+    "minElevation": "100 m",
+    "maxElevation": "1500 m",
+    "map": "images/blank.webp",
+    "terrain": "Road"
+  },
+  {
+    "name": "Coastal Off-Road Blast",
+    "description": "A fun off-road route hugging the southern coastline with sand and gravel.",
+    "distance": "40 km",
+    "technicalDifficulty": "Medium",
+    "typeOfRoute": "Circular",
+    "minElevation": "10 m",
+    "maxElevation": "400 m",
+    "map": "images/blank.webp",
+    "terrain": "Off Road"
+  },
+  {
+    "name": "El M\u00e9dano Loop",
+    "description": "Easy-going ride around El M\u00e9dano with ocean views and beach stops.",
+    "distance": "35 km",
+    "technicalDifficulty": "Easy",
+    "typeOfRoute": "Circular",
+    "minElevation": "0 m",
+    "maxElevation": "250 m",
+    "map": "images/blank.webp",
+    "terrain": "Road"
+  },
+  {
+    "name": "Lava Field Run",
+    "description": "Ride across surreal volcanic landscapes formed by ancient lava flows.",
+    "distance": "48 km",
+    "technicalDifficulty": "Medium",
+    "typeOfRoute": "Circular",
+    "minElevation": "300 m",
+    "maxElevation": "1100 m",
+    "map": "images/blank.webp",
+    "terrain": "Road"
+  },
+  {
+    "name": "Highland Gravel Track",
+    "description": "Gravel road ride in the highlands, ideal for dual-sport bikes.",
+    "distance": "62 km",
+    "technicalDifficulty": "Hard",
+    "typeOfRoute": "One Way",
+    "minElevation": "400 m",
+    "maxElevation": "1450 m",
+    "map": "images/blank.webp",
+    "terrain": "Off Road"
+  },
+  {
+    "name": "Sunset Coast Cruise",
+    "description": "Relaxing coastal ride perfect for golden hour and ocean breeze.",
+    "distance": "50 km",
+    "technicalDifficulty": "Easy",
+    "typeOfRoute": "Circular",
+    "minElevation": "0 m",
+    "maxElevation": "350 m",
+    "map": "images/blank.webp",
+    "terrain": "Road"
+  },
+  {
+    "name": "Ravine Run",
+    "description": "Tight and twisty roads through volcanic ravines with technical sections.",
+    "distance": "70 km",
+    "technicalDifficulty": "Hard",
+    "typeOfRoute": "Circular",
+    "minElevation": "150 m",
+    "maxElevation": "1250 m",
+    "map": "images/blank.webp",
+    "terrain": "Road"
   }
 ]

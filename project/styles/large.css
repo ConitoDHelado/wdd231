@@ -5,13 +5,19 @@
         margin: 0 auto;
     }
     header {
-        grid-template-columns: 100px auto auto;
+        grid-template-columns: 80px auto auto;
         margin-bottom: 10px;
     }
 
     /*------------ NAV MENU ----------------*/
     .navigation {
+        display: block;
+        opacity: 1;
+        transition: none;
+        overflow: visible;
         width: 100%;
+        max-height: none;
+        grid-column: 3/4;
     }
     .navigation ul {
         width: 100%;
@@ -31,10 +37,14 @@
     .navigation ul {
         display: flex;
         justify-content: flex-end;
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     .navigation a {
         border: none;
+        height: auto;
     }
 
     /*---------- FOOTER ----------*/

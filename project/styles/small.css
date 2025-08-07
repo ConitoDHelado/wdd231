@@ -136,6 +136,8 @@ header span {
     color: var(--rust-red);
     text-decoration: none;
     text-align: center;
+    align-content: center;
+    height: 44px;
 }
 
 .navigation li.current a {
