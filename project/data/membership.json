@@ -1,0 +1,41 @@
+[
+  {
+    "membership_tier": "Basic",
+    "monthly_cost": 15,
+    "yearly_cost": 144,
+    "short_description": "Perfect for casual riders who want to be part of the club and enjoy occasional events.",
+    "benefits": [
+      "Access to monthly group rides",
+      "Invitation to public club events",
+      "Access to members-only forum",
+      "Discounts at partner motorcycle shops (5%)"
+    ]
+  },
+  {
+    "membership_tier": "Standard",
+    "monthly_cost": 25,
+    "yearly_cost": 240,
+    "short_description": "Ideal for regular riders looking for more perks and exclusive access.",
+    "benefits": [
+      "All Basic tier benefits",
+      "Priority booking for club trips and events",
+      "Exclusive members-only ride routes",
+      "Discounts at partner motorcycle shops (10%)",
+      "Free club T-shirt upon joining"
+    ]
+  },
+  {
+    "membership_tier": "Premium",
+    "monthly_cost": 40,
+    "yearly_cost": 384,
+    "short_description": "For dedicated riders who want the ultimate Tenerife motorcycle club experience.",
+    "benefits": [
+      "All Standard tier benefits",
+      "Unlimited access to premium guided tours",
+      "One free annual maintenance check at partner garage",
+      "Discounts at partner motorcycle shops (15%)",
+      "VIP seating at major club events",
+      "Personalized club jacket after one year"
+    ]
+  }
+]
