@@ -54,7 +54,16 @@
     gap: 1rem;
     }
 
+    /*---------- MAIN - FORM ----------*/
+    .form-page {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 2rem;
+    }
 
+    #membership-details {
+        margin: auto;
+    }
 
     /*---------- FOOTER ----------*/
 

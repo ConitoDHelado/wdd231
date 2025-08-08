@@ -26,6 +26,7 @@
     <!-- SCRIPTS -->
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/getdate.js" defer></script>
+    <script src="scripts/membership.js" defer></script>
 </head>
 <body>
     <header>
@@ -53,9 +54,9 @@
                     <label>Email*<input type="email" name="email" required placeholder="email@mail.com" autocomplete="email" title="Please enter your email"></label> 
                     <label>Mobile Phone*<input type="tel" name="phone" required placeholder="6116116112" autocomplete="tel" title="Please enter your telephone number"></label>
                     <div>Choose a Membership plan*</div>
-                    <label><input type="radio" name="lvl" value="np" required>Basic Membership</label>
-                    <label><input type="radio" name="lvl" value="bronze">Standard Membership</label>
-                    <label><input type="radio" name="lvl" value="silver">Premium Membership</label>
+                    <label><input type="radio" name="tier" value="basic" required>Basic Membership</label>
+                    <label><input type="radio" name="tier" value="standard">Standard Membership</label>
+                    <label><input type="radio" name="tier" value="premium">Premium Membership</label>
                 </fieldset>    
 
                 <input type="hidden" name="timestamp" id="timestamp">

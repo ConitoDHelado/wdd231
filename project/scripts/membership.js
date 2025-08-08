@@ -16,24 +16,18 @@ closeButton.addEventListener("click", () => {
     modal.close();
 })
 
-const cost = document.createElement('p');
-const costPeriod = document.createElement('p');
+const monthlyCost = document.createElement('p');
+const yearlyCost = document.createElement('p');
 const description = document.createElement('p');
 const benefits = document.createElement('ul');
-const specialEvents = document.createElement('ul');
-const exclusivePerks = document.createElement('ul');
 
 div.appendChild(membershipLvl);
 div.appendChild(closeButton);
 modal.appendChild(div);
-modal.appendChild(cost);
-modal.appendChild(costPeriod);
+modal.appendChild(monthlyCost);
+modal.appendChild(yearlyCost);
 modal.appendChild(description);
 modal.appendChild(benefits);
-modal.appendChild(specialEvents);
-modal.appendChild(exclusivePerks);
-
-// Set up buttons
 
 
 
@@ -53,7 +47,7 @@ function populateModal(data) {
         article.classList.add('lvl')
 
         const header = document.createElement('h3');
-        header.textContent = membership.membershipLevel;
+        header.textContent = membership.membership_tier;
 
         const button = document.createElement('button')
         button.classList.add('btn');
@@ -67,21 +61,15 @@ function populateModal(data) {
 )};
 
 function displayModal(membership) {
-    membershipLvl.textContent = membership.membershipLevel;
+    membershipLvl.textContent = membership.membership_tier;
     
-    cost.innerHTML = `Cost: $${membership.cost}`
+    monthlyCost.innerHTML = `Monthly cost: $${membership.monthly_cost}`
     
-    costPeriod.innerHTML = `Billing period: ${membership.costPeriod}`;
+    yearlyCost.innerHTML = `Yearly cost: $${membership.yearly_cost}`;
     
-    description.textContent = membership.description;
+    description.textContent = membership.short_description;
     
     benefits.innerHTML = `<strong>Benefits:</strong><ul><li>${membership.benefits.join('</li><li>')}</li></ul>`;
-    
-    specialEvents.innerHTML = `<strong>Special Events:</strong><ul><li>${membership.specialEvents.join('</li><li>')}</li></ul>`;
-    
-    if (membership.exclusivePerks) {
-        exclusivePerks.innerHTML = `<strong>Exclusive Perks:</strong><ul><li>${membership.exclusivePerks.join('</li><li>')}</li></ul>`;
-    }
 
     modal.showModal();
     
