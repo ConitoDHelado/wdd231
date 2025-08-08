@@ -251,6 +251,122 @@ header span {
 #routes .max-elevation {
     grid-area: max-elevation;
 }
+
+/*---------- MAIN - FORM ----------*/
+
+.form fieldset {
+    margin: 2rem 0;
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+    padding: .5rem 2%;
+}
+
+.form legend {
+    padding: 0 .5rem;
+    font-size: 1.2rem;
+
+}
+
+.form label {
+    display: block;
+    padding-top: 1rem;
+}
+
+.form div {
+    padding-top: 1rem;
+}
+
+
+.form input[type="text"],
+.form input[type="tel"],
+.form input[type="email"],
+.form textarea {
+    display: block;
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+.form input[type="radio"] {
+    margin-right: 6px;
+    accent-color: var(--dark-rust);
+}
+
+.form input[type="submit"] {
+    max-width: 325px;
+    width: 96%;
+    margin: -1rem 2% 2rem 2%;
+    background-color: var(--dark-rust);
+
+}
+
+.form input[type="submit"]:hover {
+    font-weight: bold;
+}
+
+.form input:required {
+    border-left: solid 8px var(--dark-rust);
+}
+.form input:required:valid {
+    border-left: solid 8px #4F6D54;
+}
+
+.membership-lvls {
+    display: flex;
+    flex-direction: column;
+}
+
+.lvl {
+    background-color: var(--warm-wheat);
+    margin: 2rem 0;
+    padding: .5rem 2% 1rem 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+#membership-details {
+    min-height: 400px;
+    margin: 1rem;
+    border: 2px solid var(--moss-green);
+    border-radius: 5px;
+}
+
+#membership-details::backdrop {
+    background-color: rgba(186, 142, 102, 0.5); 
+    backdrop-filter: blur(3px);
+}
+
+
+
+#membership-details div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#membership-details h4 {
+    font-size: 1.5rem;
+    margin: 0 auto;
+    text-decoration: underline var(--shire-green);
+}
+
 /*---------- FOOTER ----------*/
 
 footer {
