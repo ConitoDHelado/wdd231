@@ -239,6 +239,10 @@ header span {
 
 }
 
+#routes {
+    min-height: 2000px;
+}
+
 #routes article {
     opacity: 0;
     animation: slideUp 1s ease-out forwards;
@@ -393,6 +397,10 @@ header span {
     flex-direction: column;
     align-items: center;
     border-radius: 5px;
+}
+
+.lvl h3 {
+    color:var(--dark-rust)
 }
 
 #membership-details {
