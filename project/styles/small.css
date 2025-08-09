@@ -174,13 +174,33 @@ header span {
     border-radius: 8px;
 }
 
+.event-list {
+    margin: 1rem 0;
+}
+
+.event-list dt {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: var(--rust-red);
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.event-list dd {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    color: var(--charcoal);
+    line-height: 1.4;
+}
+
+
 /*---------- MAIN - DISCOVER ----------*/
 
-#routes {
+.routes {
     display: block;
 }
 
-#routes article {
+.routes article {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
@@ -195,6 +215,10 @@ header span {
     border: 1px solid var(--color-border);
     border-radius: 8px;
     margin-bottom: 1rem;
+
+}
+
+#routes article {
     opacity: 0;
     animation: slideUp 1s ease-out forwards;
 }
@@ -218,12 +242,12 @@ header span {
     }
 }
 
-#routes .route-name {
+.routes .route-name {
     grid-area: name;
     margin: 0
 }
 
-#routes img {
+.routes img {
     grid-area: image;
     width: 100%;
     height: auto;
@@ -231,18 +255,18 @@ header span {
 }
 
 
-#routes .route-description {
+.routes .route-description {
     grid-area: description;
     font-style: italic;
     margin: 0;
 }
 
-#routes .distance-info,
-#routes .difficulty-info,
-#routes .route-type,
-#routes .terrain-info,
-#routes .min-elevation,
-#routes .max-elevation {
+.routes .distance-info,
+.routes .difficulty-info,
+.routes .route-type,
+.routes .terrain-info,
+.routes .min-elevation,
+.routes .max-elevation {
     text-align: center;
     margin: 0;
     font-size: 0.9rem;
@@ -250,27 +274,27 @@ header span {
 
 
 }
-#routes .distance-info {
+.routes .distance-info {
     grid-area: distance;
 }
 
-#routes .difficulty-info {
+.routes .difficulty-info {
     grid-area: difficulty;
 }
 
-#routes .route-type {
+.routes .route-type {
     grid-area: type;
 }
 
-#routes .terrain-info {
+.routes .terrain-info {
     grid-area: terrain;
 }
 
-#routes .min-elevation {
+.routes .min-elevation {
     grid-area: min-elevation;
 }
 
-#routes .max-elevation {
+.routes .max-elevation {
     grid-area: max-elevation;
 }
 
