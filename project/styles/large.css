@@ -62,17 +62,11 @@
 
     .info .about{
         grid-area: about;
-        font-size: 1.1rem;
-        margin: 1rem 0;
     }
 
     .info .events{
         grid-area: events;
-        padding: 1rem;
         margin-left: 2rem;
-        border: 1px solid var(--color-border);
-        border-radius: 8px;
-        background-color: var(--timberwolf);
     }
 
     .info h2{

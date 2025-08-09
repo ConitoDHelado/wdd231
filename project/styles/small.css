@@ -51,13 +51,16 @@ main {
 }
 
 .btn {
-    box-sizing: border-box;
-    min-width: 44px;
-    height: 44px;
-    border-radius: 5px;
+    display: inline-block;
+    padding: 1rem;
     background-color: var(--dark-rust);
+    color: var(--cream);
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 1px;
     border: none;
-    color: var(--cream)
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -133,7 +136,7 @@ header span {
 .navigation a {
     display: block;
     padding: .8rem 10px;
-    color: var(--rust-red);
+    color: var(--dark-rust);
     text-decoration: none;
     text-align: center;
     align-content: center;
@@ -160,7 +163,7 @@ header span {
     margin-bottom: 1rem;
 }
 
-.hero button {
+.hero .btn {
     position: absolute;
     right: 20px; 
     bottom: 20px;
@@ -191,6 +194,24 @@ header span {
     color: var(--charcoal);
     line-height: 1.4;
 }
+
+.info .about{
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
+
+.info .events{
+    padding: 1rem;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    background-color: var(--timberwolf);
+}
+
+.info .events h2,
+.info .events dt {
+    color: var(--dark-rust);
+}
+
 
 
 /*---------- MAIN - DISCOVER ----------*/
